@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:offres_onlines/partials/main_drawer.dart';
 import 'package:offres_onlines/widgets/open_drawer.dart';
 
 class Home extends StatefulWidget {
@@ -21,7 +22,7 @@ class _HomeState extends State<Home> {
               onPressed: (){}, icon: const FaIcon(FontAwesomeIcons.solidUser))
           ],
         ),
-        drawer: const Drawer(),
+        drawer: const MainDrawer(),
         body: Center(child: ElevatedButton(onPressed: (){}, child: const Text('Click'))),
       );
   }
