@@ -3,14 +3,16 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:offres_onlines/partials/main_drawer.dart';
 import 'package:offres_onlines/widgets/open_drawer.dart';
 
-class Home extends StatefulWidget {
-  const Home({super.key});
+
+class Layout extends StatefulWidget {
+  final Widget content;
+  const Layout({super.key,required this.content});
 
   @override
-  State<Home> createState() => _HomeState();
+  State<Layout> createState() => _LayoutState();
 }
 
-class _HomeState extends State<Home> {
+class _LayoutState extends State<Layout> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +25,7 @@ class _HomeState extends State<Home> {
           ],
         ),
         drawer: const MainDrawer(),
-        body: Center(child: ElevatedButton(onPressed: (){}, child: const Text('Click'))),
+        body: widget.content,
       );
   }
 }
