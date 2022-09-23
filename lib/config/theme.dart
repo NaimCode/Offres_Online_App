@@ -20,6 +20,7 @@ MaterialColor PRIMARY_COLOR=const MaterialColor(0xff0B2C40, {
 ThemeData THEME=ThemeData(
   //App background color
   primarySwatch: PRIMARY_COLOR,
+  primaryColor: const Color(0xff0099DD),
   listTileTheme: ListTileThemeData(
     selectedTileColor: PRIMARY_COLOR.withOpacity(.1),
    

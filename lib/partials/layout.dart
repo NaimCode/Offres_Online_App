@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:get/route_manager.dart';
 import 'package:offres_onlines/partials/main_drawer.dart';
 import 'package:offres_onlines/widgets/open_drawer.dart';
 
@@ -19,6 +18,7 @@ class _LayoutState extends State<Layout> {
    
     return Scaffold(
         appBar: AppBar(
+          elevation: 0,
           leading: const OpenDrawerButton(),
           actions:  [
             IconButton(

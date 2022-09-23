@@ -16,7 +16,9 @@ class _MainDrawerState extends State<MainDrawer> {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: ListView.builder(
+      
+      child: ListView.separated(
+        separatorBuilder: (context, index) => const Divider(height: 1),
           itemCount: MENUS.length,
           itemBuilder: (context, index) {
             Menu menu = MENUS[index];
