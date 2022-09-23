@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:offre/config/theme.dart';
+import 'config/theme.dart';
+import 'pages/home/index.dart';
 
 void main() {
   runApp(const App());
@@ -13,10 +14,7 @@ class App extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: THEME,
-      home:  Scaffold(
-        appBar: AppBar(),
-        body: Center(child: ElevatedButton(onPressed: (){}, child: const Text('Click'))),
-      ),
+      home:  const Home(),
     );
   }
 }
