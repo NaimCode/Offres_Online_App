@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:get/route_manager.dart';
 import 'package:offres_onlines/partials/main_drawer.dart';
 import 'package:offres_onlines/widgets/open_drawer.dart';
 
@@ -15,6 +16,7 @@ class Layout extends StatefulWidget {
 class _LayoutState extends State<Layout> {
   @override
   Widget build(BuildContext context) {
+   
     return Scaffold(
         appBar: AppBar(
           leading: const OpenDrawerButton(),

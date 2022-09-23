@@ -16,9 +16,9 @@ class App extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: THEME,
-      initialRoute: "/",
+      initialRoute: "/avis_rectification",
       routingCallback: (routing) {
-        if (routing?.current == '/second') {}
+        print(routing.toString());
       },
       getPages: [
         GetPage(name: "/", page: () => const Layout(content: InDevelopment())),

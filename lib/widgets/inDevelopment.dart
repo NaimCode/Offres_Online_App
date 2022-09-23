@@ -9,12 +9,16 @@ class InDevelopment extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Lottie.asset(Assets.inDevelopment),
-        const SizedBox(height: 10),
-        Text('En développement',style: Theme.of(context).textTheme.caption)
-      ],
+    return Padding(
+      padding: const EdgeInsets.all(20.0),
+      child: Column(
+        // mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Lottie.asset(Assets.inDevelopment),
+          const SizedBox(height: 10),
+          Text('En développement...',style: Theme.of(context).textTheme.bodyMedium)
+        ],
+      ),
     );
   }
 }
