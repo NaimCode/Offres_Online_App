@@ -16,7 +16,6 @@ class _FilterPageState extends State<FilterPage> {
     return Scaffold(
       bottomNavigationBar: Container(height: 90,
       color: Colors.white,
-
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical:5,horizontal: 40),
           child: Center(
