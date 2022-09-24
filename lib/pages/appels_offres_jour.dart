@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:get/route_manager.dart';
+import 'package:offres_onlines/partials/filter_page.dart';
 
 class AppelsOffresJour extends StatefulWidget {
   const AppelsOffresJour({super.key});
@@ -31,7 +33,11 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
                           color: Theme.of(context).primaryColor
                          )
                             ),
-                        onPressed: () {},
+                        onPressed:() async{
+                          var filter=await Get.to(()=>const FilterPage());
+
+                          print(filter);
+                        },
                         icon: const FaIcon(FontAwesomeIcons.filter,size: 17),
                         label: const Text('Filtrer'))
                   ],
@@ -42,3 +48,7 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
     );
   }
 }
+
+
+
+
