@@ -17,11 +17,15 @@ MaterialColor PRIMARY_COLOR=const MaterialColor(0xff0B2C40, {
       800: Color(0xff0D0D0D),//90% 
       900: Color(0xff000000),//100% 
   });
+
+Color ACCENT_COLOR=const Color(0xffD0D0D3);
 ThemeData THEME=ThemeData(
   //App background color
   primarySwatch: PRIMARY_COLOR,
   
   primaryColor: const Color(0xff0099DD),
+ 
+  
   listTileTheme: ListTileThemeData(
     selectedTileColor: PRIMARY_COLOR.withOpacity(.1),
    
