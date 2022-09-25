@@ -1,14 +1,20 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/route_manager.dart';
+
 import 'package:offres_onlines/bloc/offre/offre_bloc.dart';
+import 'package:offres_onlines/pages/offre_page.dart';
 import 'package:offres_onlines/repository/offre_repository.dart';
 import 'package:offres_onlines/widgets/inDevelopment.dart';
+
 import 'config/theme.dart';
 import 'pages/appels_offres_jour.dart';
 import 'partials/layout.dart';
 
 void main() {
+  
   runApp(const App());
 }
 
@@ -29,6 +35,7 @@ class App extends StatelessWidget {
         getPages: [
           GetPage(
               name: "/", page: () => const Layout(content: InDevelopment())),
+          GetPage(name: "/offre", page: ()=>const  OffrePage()),
           GetPage(
               name: "/avis_rectification",
               page: () => const Layout(content: InDevelopment())),

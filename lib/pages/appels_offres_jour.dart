@@ -22,6 +22,7 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
     super.initState();
     BlocProvider.of<OffreBloc>(Get.context!).add(OffreEventGetAll());
   }
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -52,19 +53,19 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
           BlocBuilder<OffreBloc, OffreState>(builder: (context, state) {
             if (state is OffreIsLoading) {
               return const Loading();
-            } 
+            }
             if (state is OffreError) {
               return const Error(text: 'Impossible de charger les donnés');
-            } 
+            }
             if (state is OffreData) {
-              return  ListView.builder(
-                shrinkWrap: true,
-                physics: const NeverScrollableScrollPhysics(),
-                itemCount: state.offres.sublist(0,20).length,
-                itemBuilder: ((context, index) {
-                  Offre offre=state.offres[index];
-                return  OffreCard(offre: offre);
-              }));
+              return ListView.builder(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: state.offres.sublist(0, 20).length,
+                  itemBuilder: ((context, index) {
+                    Offre offre = state.offres[index];
+                    return OffreCard(offre: offre);
+                  }));
             }
             return Container();
           })
@@ -74,42 +75,70 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
   }
 }
 
-
 class OffreCard extends StatelessWidget {
   final Offre offre;
-  const OffreCard({super.key,required this.offre});
+  const OffreCard({super.key, required this.offre});
 
   @override
   Widget build(BuildContext context) {
+    
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: 5),
+      margin: const EdgeInsets.symmetric(vertical: 10),
       padding: const EdgeInsets.symmetric(vertical: 10),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(10),
-        color: Colors.grey.shade100
-      ),
+          borderRadius: BorderRadius.circular(10), color: Colors.grey.shade100),
       child: ListTile(
-     
-        title: Text(offre.mrchObjt??"--",style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontWeight: FontWeight.bold),maxLines: 2,overflow: TextOverflow.ellipsis,),
-        subtitle:Column(mainAxisSize: MainAxisSize.min,
+        onTap: () =>Get.toNamed("/offre",arguments: offre) ,
+        title: Visibility(
+            visible: offre.mrchObjt != null && offre.mrchObjt!.isNotEmpty,
+            child: Text(offre.mrchObjt!,
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyMedium!
+                    .copyWith(fontWeight: FontWeight.bold),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis)),
+        subtitle: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10),
-              child: Text(offre.mrchObjta??"--",style: Theme.of(context).textTheme.bodySmall,maxLines: 3,overflow: TextOverflow.ellipsis),
+            const Divider(),
+            Visibility(
+               visible: offre.mrchObjta != null && offre.mrchObjta!.isNotEmpty,
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10),
+                child: Text(offre.mrchObjta ?? "--",
+                    style: Theme.of(context).textTheme.bodySmall,
+                    maxLines: 3,
+                    overflow: TextOverflow.ellipsis),
+              ),
             ),
             Row(
               children: [
-               Container(
-                color: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 3,horizontal: 6),
-                child: Text(offre.mrchCutn??"",style: Theme.of(context).textTheme.bodySmall!.copyWith(color: Colors.black)),
-               ),
-            const SizedBox(width: 20,child: Center(child: FaIcon(FontAwesomeIcons.solidCircle,size: 6)),),
-                 Container(
-                color: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 3,horizontal: 6),
-                child: Text(offre.mrchCntca??"",style: Theme.of(context).textTheme.bodySmall!.copyWith(color: Colors.black)),
-               ),
+                Container(
+                  color: Colors.white,
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 3, horizontal: 6),
+                  child: Text(offre.mrchCutn ?? "---",
+                      style: Theme.of(context)
+                          .textTheme
+                          .bodySmall!
+                          .copyWith(color: Colors.black)),
+                ),
+                const SizedBox(
+                  width: 20,
+                  child: Center(
+                      child: FaIcon(FontAwesomeIcons.solidCircle, size: 6)),
+                ),
+                Container(
+                  color: Colors.white,
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 3, horizontal: 6),
+                  child: Text(offre.mrchCntca ?? "---",
+                      style: Theme.of(context)
+                          .textTheme
+                          .bodySmall!
+                          .copyWith(color: Colors.black)),
+                ),
               ],
             )
           ],
