@@ -12,30 +12,38 @@ class OffrePage extends StatefulWidget {
 }
 
 class _OffrePageState extends State<OffrePage> {
- late Offre offre;
+  late Offre offre;
   late Rx<bool> isFav;
   @override
   void initState() {
     super.initState();
-    offre=Get.arguments;
-    isFav=false.obs;
+    offre = Get.arguments;
+    isFav = false.obs;
   }
-
 
   @override
   Widget build(BuildContext context) {
-   
     return Scaffold(
       appBar: AppBar(
         actions: [
-           IconButton(
-             splashRadius: 22,
-              onPressed: (){}, icon: const FaIcon(FontAwesomeIcons.filePdf)),
-          Obx(()=> IconButton(
-             splashRadius: 22,
-              onPressed: (){
-                isFav.value=!isFav.value;
-              }, icon:  FaIcon(isFav.isFalse? FontAwesomeIcons.star:FontAwesomeIcons.solidStar,color: isFav.isFalse?null:Colors.yellow,)))
+          IconButton(
+              tooltip: 'Exporter',
+              splashRadius: 22,
+              onPressed: () {},
+              icon: const FaIcon(FontAwesomeIcons.filePdf)),
+          Obx(() => IconButton(
+              tooltip:
+                  isFav.isFalse ? 'Ajouter au favori' : "Retirer des favoris",
+              splashRadius: 22,
+              onPressed: () {
+                isFav.value = !isFav.value;
+              },
+              icon: FaIcon(
+                isFav.isFalse
+                    ? FontAwesomeIcons.star
+                    : FontAwesomeIcons.solidStar,
+                color: isFav.isFalse ? null : Colors.yellow,
+              )))
         ],
       ),
     );

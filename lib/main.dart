@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/route_manager.dart';
+import 'package:intl/intl.dart';
 
 import 'package:offres_onlines/bloc/offre/offre_bloc.dart';
 import 'package:offres_onlines/pages/offre_page.dart';
@@ -13,8 +14,8 @@ import 'config/theme.dart';
 import 'pages/appels_offres_jour.dart';
 import 'partials/layout.dart';
 
-void main() {
-  
+void main() async{
+  await Intl.withLocale('fr', () => print('init intl to fr'));
   runApp(const App());
 }
 
