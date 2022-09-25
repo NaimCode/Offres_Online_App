@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:get/route_manager.dart';
 import 'package:offres_onlines/partials/main_drawer.dart';
+import 'package:offres_onlines/widgets/brand.dart';
 import 'package:offres_onlines/widgets/open_drawer.dart';
 
 
@@ -18,12 +20,13 @@ class _LayoutState extends State<Layout> {
    
     return Scaffold(
         appBar: AppBar(
-          elevation: 0,
+         title: const Brand(),
+         centerTitle: true,
           leading: const OpenDrawerButton(),
           actions:  [
             IconButton(
              splashRadius: 22,
-              onPressed: (){}, icon: const FaIcon(FontAwesomeIcons.solidUser))
+              onPressed: ()=>Get.toNamed("/settings"), icon: const FaIcon(FontAwesomeIcons.solidUser))
           ],
         ),
         drawer: const MainDrawer(),

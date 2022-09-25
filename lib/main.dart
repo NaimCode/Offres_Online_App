@@ -7,6 +7,7 @@ import 'package:intl/intl.dart';
 
 import 'package:offres_onlines/bloc/offre/offre_bloc.dart';
 import 'package:offres_onlines/pages/offre_page.dart';
+import 'package:offres_onlines/pages/settings.dart';
 import 'package:offres_onlines/repository/offre_repository.dart';
 import 'package:offres_onlines/widgets/inDevelopment.dart';
 
@@ -36,6 +37,7 @@ class App extends StatelessWidget {
         getPages: [
           GetPage(
               name: "/", page: () => const Layout(content: InDevelopment())),
+          GetPage(name: "/settings", page: ()=>const  Settings()),
           GetPage(name: "/offre", page: ()=>const  OffrePage()),
           GetPage(
               name: "/avis_rectification",
