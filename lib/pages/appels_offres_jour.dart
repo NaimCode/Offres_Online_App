@@ -21,6 +21,7 @@ class AppelsOffresJour extends StatefulWidget {
 
 class _AppelsOffresJourState extends State<AppelsOffresJour> {
   ScrollController scrollController = ScrollController();
+  RxString search="".obs;
   RxBool isToUp = false.obs;
   @override
   void initState() {
@@ -84,11 +85,15 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
                 ],
               ),
             ),
-            Padding(
+             Padding(
               padding: const EdgeInsets.all(10.0),
-              child: TextFormField(
-                decoration: const InputDecoration(
+              child: TextField(
+                onChanged: (value){
+                  search.value=value.toLowerCase();
+                },
+                decoration:  const InputDecoration(contentPadding: EdgeInsets.symmetric(vertical: 14,horizontal: 12),
                     hintText: "Recherche",
+                  
                     suffixIcon: SizedBox(
                         width: double.minPositive,
                         child: Center(
@@ -110,34 +115,32 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
                 return const Error(text: 'Impossible de charger les donnés');
               }
               if (state is OffreData) {
-              
-                return state.offres.isEmpty?const NoData(): ListView(
+                return Obx(()=> state.data(searchText: search.value).isEmpty?const NoData(): ListView(
                   shrinkWrap: true,
                    physics: const NeverScrollableScrollPhysics(),
                   children: [
                     Padding(padding: const EdgeInsets.symmetric(vertical: 10),
                     child: Row(mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                      
                        Container(
                         padding: const EdgeInsets.all(6),
                         decoration: BoxDecoration(
                           color: Colors.amber.shade300,
                           borderRadius: BorderRadius.circular(5)
                         ),
-                        child:  Text("${state.offres.length} appels d'offres"),
+                        child:  Text("${state.data(searchText:  search.value).length} appels d'offres"),
                        )
                       ]),
                     ),
                     ListView.builder(
                       shrinkWrap: true,
                       physics: const NeverScrollableScrollPhysics(),
-                      itemCount: state.offres.sublist(0, 40).length,
+                      itemCount: state.data(searchText:  search.value).length,
                       itemBuilder: ((context, index) {
-                        Offre offre = state.offres[index];
+                        Offre offre = state.data(searchText: search.value)[index];
                         return OffreCard(offre: offre);
                       })),]
-                );
+                ));
               }
            
               return Container();

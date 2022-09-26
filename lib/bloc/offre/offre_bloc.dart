@@ -18,5 +18,6 @@ class OffreBloc extends Bloc<OffreEvent, OffreState> {
         emit(OffreError(error: e));
       }
     }));
+ 
   }
 }

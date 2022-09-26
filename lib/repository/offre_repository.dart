@@ -22,7 +22,7 @@ class OffreRepository {
     return data.map((offre) {
       offre.pays = pays.firstWhere((p) => offre.idPays == p.id);
       return offre;
-    }).toList();
+    }).toList().sublist(0,40);
   }
 
   Future<List<Pays>> fakerPays() async {
