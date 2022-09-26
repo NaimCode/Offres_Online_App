@@ -1,0 +1,3773 @@
+[
+    {
+     "VILL_ID": 149,
+     "VILL_CODE": "1100",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION DE SOUSS MASSA DRAA",
+     "PAYE_ID": 112,
+     "NBRE": 1
+    },
+    {
+     "VILL_ID": 150,
+     "VILL_CODE": "1101",
+     "VILL_LABEL": "AGADIR",
+     "PAYE_ID": 112,
+     "NBRE": 89
+    },
+    {
+     "VILL_ID": 151,
+     "VILL_CODE": "1102",
+     "VILL_LABEL": "TAROUDANT",
+     "PAYE_ID": 112,
+     "NBRE": 71
+    },
+    {
+     "VILL_ID": 152,
+     "VILL_CODE": "0501",
+     "VILL_LABEL": "OUARZAZATE",
+     "PAYE_ID": 112,
+     "NBRE": 58
+    },
+    {
+     "VILL_ID": 153,
+     "VILL_CODE": "0502",
+     "VILL_LABEL": "ZAGORA",
+     "PAYE_ID": 112,
+     "NBRE": 36
+    },
+    {
+     "VILL_ID": 154,
+     "VILL_CODE": "1105",
+     "VILL_LABEL": "TIZNIT",
+     "PAYE_ID": 112,
+     "NBRE": 46
+    },
+    {
+     "VILL_ID": 155,
+     "VILL_CODE": "1106",
+     "VILL_LABEL": "CHTOUKA AIT BAHA",
+     "PAYE_ID": 112,
+     "NBRE": 37
+    },
+    {
+     "VILL_ID": 156,
+     "VILL_CODE": "1107",
+     "VILL_LABEL": "INEZGANE AIT MELLOUL",
+     "PAYE_ID": 112,
+     "NBRE": 41
+    },
+    {
+     "VILL_ID": 157,
+     "VILL_CODE": "0600",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION DE MARRAKECH SAFI",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 158,
+     "VILL_CODE": "0601",
+     "VILL_LABEL": "MARRAKECH",
+     "PAYE_ID": 112,
+     "NBRE": 190
+    },
+    {
+     "VILL_ID": 159,
+     "VILL_CODE": "0602",
+     "VILL_LABEL": "EL KELAA SRAGHNA",
+     "PAYE_ID": 112,
+     "NBRE": 46
+    },
+    {
+     "VILL_ID": 160,
+     "VILL_CODE": "0603",
+     "VILL_LABEL": "ESSAOUIRA",
+     "PAYE_ID": 112,
+     "NBRE": 61
+    },
+    {
+     "VILL_ID": 161,
+     "VILL_CODE": "0604",
+     "VILL_LABEL": "EL HAOUZ",
+     "PAYE_ID": 112,
+     "NBRE": 62
+    },
+    {
+     "VILL_ID": 162,
+     "VILL_CODE": "0605",
+     "VILL_LABEL": "CHICHAOUA",
+     "PAYE_ID": 112,
+     "NBRE": 36
+    },
+    {
+     "VILL_ID": 163,
+     "VILL_CODE": "0606",
+     "VILL_LABEL": "RHAMNA",
+     "PAYE_ID": 112,
+     "NBRE": 56
+    },
+    {
+     "VILL_ID": 164,
+     "VILL_CODE": "0200",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION DU GRAND CASABLANCA SETTAT",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 165,
+     "VILL_CODE": "0201",
+     "VILL_LABEL": "CASABLANCA",
+     "PAYE_ID": 112,
+     "NBRE": 324
+    },
+    {
+     "VILL_ID": 166,
+     "VILL_CODE": "0202",
+     "VILL_LABEL": "MOHAMMEDIA",
+     "PAYE_ID": 112,
+     "NBRE": 26
+    },
+    {
+     "VILL_ID": 167,
+     "VILL_CODE": "0203",
+     "VILL_LABEL": "Mediouna",
+     "PAYE_ID": 112,
+     "NBRE": 17
+    },
+    {
+     "VILL_ID": 168,
+     "VILL_CODE": "0204",
+     "VILL_LABEL": "Nouacer",
+     "PAYE_ID": 112,
+     "NBRE": 22
+    },
+    {
+     "VILL_ID": 169,
+     "VILL_CODE": "0100",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION RABAT SALE KENITRA",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 170,
+     "VILL_CODE": "0101",
+     "VILL_LABEL": "RABAT",
+     "PAYE_ID": 112,
+     "NBRE": 851
+    },
+    {
+     "VILL_ID": 171,
+     "VILL_CODE": "0102",
+     "VILL_LABEL": "KHEMISSET",
+     "PAYE_ID": 112,
+     "NBRE": 75
+    },
+    {
+     "VILL_ID": 172,
+     "VILL_CODE": "0103",
+     "VILL_LABEL": "SALE",
+     "PAYE_ID": 112,
+     "NBRE": 43
+    },
+    {
+     "VILL_ID": 173,
+     "VILL_CODE": "0104",
+     "VILL_LABEL": "SKHIRAT TEMARA",
+     "PAYE_ID": 112,
+     "NBRE": 52
+    },
+    {
+     "VILL_ID": 174,
+     "VILL_CODE": "0400",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION DES FES MEKNES",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 175,
+     "VILL_CODE": "0401",
+     "VILL_LABEL": "FES",
+     "PAYE_ID": 112,
+     "NBRE": 77
+    },
+    {
+     "VILL_ID": 176,
+     "VILL_CODE": "0402",
+     "VILL_LABEL": "BOULEMANE",
+     "PAYE_ID": 112,
+     "NBRE": 42
+    },
+    {
+     "VILL_ID": 177,
+     "VILL_CODE": "0403",
+     "VILL_LABEL": "SEFROU",
+     "PAYE_ID": 112,
+     "NBRE": 24
+    },
+    {
+     "VILL_ID": 178,
+     "VILL_CODE": "0404",
+     "VILL_LABEL": "Moulay yaakoub",
+     "PAYE_ID": 112,
+     "NBRE": 13
+    },
+    {
+     "VILL_ID": 179,
+     "VILL_CODE": "1500",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION DE L'ORIENTAL",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 180,
+     "VILL_CODE": "1501",
+     "VILL_LABEL": "OUJDA",
+     "PAYE_ID": 112,
+     "NBRE": 133
+    },
+    {
+     "VILL_ID": 181,
+     "VILL_CODE": "1502",
+     "VILL_LABEL": "NADOR",
+     "PAYE_ID": 112,
+     "NBRE": 37
+    },
+    {
+     "VILL_ID": 182,
+     "VILL_CODE": "1503",
+     "VILL_LABEL": "FIGUIG-BOUARFA",
+     "PAYE_ID": 112,
+     "NBRE": 27
+    },
+    {
+     "VILL_ID": 183,
+     "VILL_CODE": "1504",
+     "VILL_LABEL": "TAOURIRT",
+     "PAYE_ID": 112,
+     "NBRE": 48
+    },
+    {
+     "VILL_ID": 184,
+     "VILL_CODE": "1505",
+     "VILL_LABEL": "BERKANE",
+     "PAYE_ID": 112,
+     "NBRE": 18
+    },
+    {
+     "VILL_ID": 185,
+     "VILL_CODE": "1506",
+     "VILL_LABEL": "JERADA",
+     "PAYE_ID": 112,
+     "NBRE": 16
+    },
+    {
+     "VILL_ID": 186,
+     "VILL_CODE": "1507",
+     "VILL_LABEL": "Driouch",
+     "PAYE_ID": 112,
+     "NBRE": 13
+    },
+    {
+     "VILL_ID": 187,
+     "VILL_CODE": "0500",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION DE DARAA TAFILALET",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 188,
+     "VILL_CODE": "0405",
+     "VILL_LABEL": "MEKNES",
+     "PAYE_ID": 112,
+     "NBRE": 101
+    },
+    {
+     "VILL_ID": 189,
+     "VILL_CODE": "0406",
+     "VILL_LABEL": "IFRANE",
+     "PAYE_ID": 112,
+     "NBRE": 52
+    },
+    {
+     "VILL_ID": 190,
+     "VILL_CODE": "0904",
+     "VILL_LABEL": "KHENIFRA",
+     "PAYE_ID": 112,
+     "NBRE": 44
+    },
+    {
+     "VILL_ID": 191,
+     "VILL_CODE": "0504",
+     "VILL_LABEL": "ERRACHIDIA",
+     "PAYE_ID": 112,
+     "NBRE": 44
+    },
+    {
+     "VILL_ID": 192,
+     "VILL_CODE": "0407",
+     "VILL_LABEL": "EL HAJEB",
+     "PAYE_ID": 112,
+     "NBRE": 25
+    },
+    {
+     "VILL_ID": 193,
+     "VILL_CODE": "0506",
+     "VILL_LABEL": "Midelt",
+     "PAYE_ID": 112,
+     "NBRE": 33
+    },
+    {
+     "VILL_ID": 194,
+     "VILL_CODE": "0300",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION DE TANGER TETOUAN AL HOCEIMA",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 195,
+     "VILL_CODE": "0301",
+     "VILL_LABEL": "TANGER ASSILA",
+     "PAYE_ID": 112,
+     "NBRE": 85
+    },
+    {
+     "VILL_ID": 196,
+     "VILL_CODE": "0302",
+     "VILL_LABEL": "TETOUAN",
+     "PAYE_ID": 112,
+     "NBRE": 73
+    },
+    {
+     "VILL_ID": 197,
+     "VILL_CODE": "0303",
+     "VILL_LABEL": "CHEFCHAOUEN",
+     "PAYE_ID": 112,
+     "NBRE": 46
+    },
+    {
+     "VILL_ID": 198,
+     "VILL_CODE": "0304",
+     "VILL_LABEL": "LARACHE",
+     "PAYE_ID": 112,
+     "NBRE": 37
+    },
+    {
+     "VILL_ID": 199,
+     "VILL_CODE": "0305",
+     "VILL_LABEL": "Fahss Anjra",
+     "PAYE_ID": 112,
+     "NBRE": 11
+    },
+    {
+     "VILL_ID": 200,
+     "VILL_CODE": "0306",
+     "VILL_LABEL": "Mdiq-Fnideq",
+     "PAYE_ID": 112,
+     "NBRE": 24
+    },
+    {
+     "VILL_ID": 202,
+     "VILL_CODE": "0105",
+     "VILL_LABEL": "KENITRA",
+     "PAYE_ID": 112,
+     "NBRE": 109
+    },
+    {
+     "VILL_ID": 203,
+     "VILL_CODE": "0106",
+     "VILL_LABEL": "SIDI KACEM",
+     "PAYE_ID": 112,
+     "NBRE": 64
+    },
+    {
+     "VILL_ID": 205,
+     "VILL_CODE": "0205",
+     "VILL_LABEL": "EL JADIDA",
+     "PAYE_ID": 112,
+     "NBRE": 73
+    },
+    {
+     "VILL_ID": 206,
+     "VILL_CODE": "0607",
+     "VILL_LABEL": "SAFI",
+     "PAYE_ID": 112,
+     "NBRE": 66
+    },
+    {
+     "VILL_ID": 207,
+     "VILL_CODE": "0608",
+     "VILL_LABEL": "Youssoufya",
+     "PAYE_ID": 112,
+     "NBRE": 13
+    },
+    {
+     "VILL_ID": 208,
+     "VILL_CODE": "0900",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION DE BENI MELLAL KHENIFRA",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 209,
+     "VILL_CODE": "0901",
+     "VILL_LABEL": "BENI MELLAL",
+     "PAYE_ID": 112,
+     "NBRE": 78
+    },
+    {
+     "VILL_ID": 210,
+     "VILL_CODE": "0902",
+     "VILL_LABEL": "AZILAL",
+     "PAYE_ID": 112,
+     "NBRE": 83
+    },
+    {
+     "VILL_ID": 211,
+     "VILL_CODE": "0903",
+     "VILL_LABEL": "Fqih Ben Salah",
+     "PAYE_ID": 112,
+     "NBRE": 78
+    },
+    {
+     "VILL_ID": 213,
+     "VILL_CODE": "0308",
+     "VILL_LABEL": "AL HOCEIMA",
+     "PAYE_ID": 112,
+     "NBRE": 84
+    },
+    {
+     "VILL_ID": 214,
+     "VILL_CODE": "0408",
+     "VILL_LABEL": "TAOUNATE",
+     "PAYE_ID": 112,
+     "NBRE": 44
+    },
+    {
+     "VILL_ID": 215,
+     "VILL_CODE": "0409",
+     "VILL_LABEL": "TAZA",
+     "PAYE_ID": 112,
+     "NBRE": 68
+    },
+    {
+     "VILL_ID": 216,
+     "VILL_CODE": "1508",
+     "VILL_LABEL": "GUERCIF",
+     "PAYE_ID": 112,
+     "NBRE": 30
+    },
+    {
+     "VILL_ID": 218,
+     "VILL_CODE": "0209",
+     "VILL_LABEL": "BEN SLIMANE",
+     "PAYE_ID": 112,
+     "NBRE": 34
+    },
+    {
+     "VILL_ID": 219,
+     "VILL_CODE": "0905",
+     "VILL_LABEL": "KHOURIBGA",
+     "PAYE_ID": 112,
+     "NBRE": 104
+    },
+    {
+     "VILL_ID": 220,
+     "VILL_CODE": "0208",
+     "VILL_LABEL": "SETTAT",
+     "PAYE_ID": 112,
+     "NBRE": 79
+    },
+    {
+     "VILL_ID": 221,
+     "VILL_CODE": "0206",
+     "VILL_LABEL": "BERRCHID",
+     "PAYE_ID": 112,
+     "NBRE": 29
+    },
+    {
+     "VILL_ID": 222,
+     "VILL_CODE": "1200",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION DE GUELMIM OUED NOUN",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 223,
+     "VILL_CODE": "1201",
+     "VILL_LABEL": "ASSA ZAG",
+     "PAYE_ID": 112,
+     "NBRE": 11
+    },
+    {
+     "VILL_ID": 224,
+     "VILL_CODE": "1304",
+     "VILL_LABEL": "ES SEMARA",
+     "PAYE_ID": 112,
+     "NBRE": 16
+    },
+    {
+     "VILL_ID": 225,
+     "VILL_CODE": "1203",
+     "VILL_LABEL": "GUELMIM",
+     "PAYE_ID": 112,
+     "NBRE": 42
+    },
+    {
+     "VILL_ID": 226,
+     "VILL_CODE": "1204",
+     "VILL_LABEL": "TAN-TAN",
+     "PAYE_ID": 112,
+     "NBRE": 21
+    },
+    {
+     "VILL_ID": 227,
+     "VILL_CODE": "1103",
+     "VILL_LABEL": "TATA",
+     "PAYE_ID": 112,
+     "NBRE": 35
+    },
+    {
+     "VILL_ID": 228,
+     "VILL_CODE": "1300",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION LAAYOUNE SAGUIA AL HAMRA",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 229,
+     "VILL_CODE": "1301",
+     "VILL_LABEL": "LAAYOUNE",
+     "PAYE_ID": 112,
+     "NBRE": 46
+    },
+    {
+     "VILL_ID": 230,
+     "VILL_CODE": "1302",
+     "VILL_LABEL": "BOUJDOUR",
+     "PAYE_ID": 112,
+     "NBRE": 23
+    },
+    {
+     "VILL_ID": 231,
+     "VILL_CODE": "1400",
+     "VILL_CREG": "N",
+     "VILL_LABEL": "REGION DE DAKHLA OUED EDDAHAB ",
+     "PAYE_ID": 112,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 232,
+     "VILL_CODE": "1401",
+     "VILL_LABEL": "OUED EDDAHAB",
+     "PAYE_ID": 112,
+     "NBRE": 9
+    },
+    {
+     "VILL_ID": 233,
+     "VILL_CODE": "1402",
+     "VILL_LABEL": "AOUSSERD",
+     "PAYE_ID": 112,
+     "NBRE": 3
+    },
+    {
+     "VILL_ID": 234,
+     "VILL_CODE": "1303",
+     "VILL_LABEL": "TARFAYA",
+     "PAYE_ID": 112,
+     "NBRE": 9
+    },
+    {
+     "VILL_ID": 235,
+     "VILL_CODE": "3000",
+     "VILL_LABEL": "Ville étrangère",
+     "PAYE_ID": 112,
+     "NBRE": 3
+    },
+    {
+     "VILL_ID": 236,
+     "VILL_CODE": "0107",
+     "VILL_LABEL": "Sidi slimane",
+     "PAYE_ID": 112,
+     "NBRE": 20
+    },
+    {
+     "VILL_ID": 237,
+     "VILL_CODE": "0503",
+     "VILL_LABEL": "Tinghir",
+     "PAYE_ID": 112,
+     "NBRE": 32
+    },
+    {
+     "VILL_ID": 238,
+     "VILL_CODE": "0307",
+     "VILL_LABEL": "Ouezzane",
+     "PAYE_ID": 112,
+     "NBRE": 30
+    },
+    {
+     "VILL_ID": 239,
+     "VILL_CODE": "0207",
+     "VILL_LABEL": "Sidi bennour",
+     "PAYE_ID": 112,
+     "NBRE": 66
+    },
+    {
+     "VILL_ID": 242,
+     "VILL_CODE": "1202",
+     "VILL_LABEL": "sidi ifni",
+     "PAYE_ID": 112,
+     "NBRE": 22
+    },
+    {
+     "VILL_ID": 243,
+     "VILL_CODE": "1403",
+     "VILL_LABEL": "DAKHLA",
+     "PAYE_ID": 112,
+     "NBRE": 20
+    },
+    {
+     "VILL_ID": 467,
+     "VILL_CODE": "0101",
+     "VILL_LABEL": "abidjan",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 468,
+     "VILL_CODE": "0102",
+     "VILL_LABEL": "YAMOUSSOUKRO",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 469,
+     "VILL_CODE": "0103",
+     "VILL_LABEL": "OUME",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 470,
+     "VILL_CODE": "0601",
+     "VILL_LABEL": "DAKAR",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 471,
+     "VILL_CODE": "0602",
+     "VILL_LABEL": "SAINT-LOUIS",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 472,
+     "VILL_CODE": "0603",
+     "VILL_LABEL": "Touba",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 473,
+     "VILL_CODE": "0604",
+     "VILL_LABEL": "Bambey",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 474,
+     "VILL_CODE": "0605",
+     "VILL_LABEL": "Madiina Gunaas",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 475,
+     "VILL_CODE": "0201",
+     "VILL_LABEL": "BAMAKO",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 476,
+     "VILL_CODE": "0202",
+     "VILL_LABEL": "Niafunké ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 477,
+     "VILL_CODE": "0203",
+     "VILL_LABEL": "TOMBOUCTOU ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 478,
+     "VILL_CODE": "0204",
+     "VILL_LABEL": "Ségou",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 479,
+     "VILL_CODE": "0205",
+     "VILL_LABEL": "Hamdallaye ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 480,
+     "VILL_CODE": "0206",
+     "VILL_LABEL": "Sikasso ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 481,
+     "VILL_CODE": "0207",
+     "VILL_LABEL": "Mopti ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 482,
+     "VILL_CODE": "0208",
+     "VILL_LABEL": "Souleymanebougou ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 483,
+     "VILL_CODE": "0209",
+     "VILL_LABEL": "Kayes ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 484,
+     "VILL_CODE": "0701",
+     "VILL_LABEL": "Nouakchott ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 485,
+     "VILL_CODE": "0702",
+     "VILL_LABEL": "Kobenni ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 486,
+     "VILL_CODE": "0703",
+     "VILL_LABEL": "Boumdeïd ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 487,
+     "VILL_CODE": "0704",
+     "VILL_LABEL": "FDérick ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 488,
+     "VILL_CODE": "0705",
+     "VILL_LABEL": "Moudjeria ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 489,
+     "VILL_CODE": "0706",
+     "VILL_LABEL": "Kankossa ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 490,
+     "VILL_CODE": "0707",
+     "VILL_LABEL": "Méderdra ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 491,
+     "VILL_CODE": "0708",
+     "VILL_LABEL": "Tamchekett ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 492,
+     "VILL_CODE": "0709",
+     "VILL_LABEL": "Timbédra ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 493,
+     "VILL_CODE": "0710",
+     "VILL_LABEL": "Boutilimit",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 494,
+     "VILL_CODE": "0711",
+     "VILL_LABEL": "Djiguenni ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 495,
+     "VILL_CODE": "0712",
+     "VILL_LABEL": "Aoujeft ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 496,
+     "VILL_CODE": "0713",
+     "VILL_LABEL": "Bassikounou ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 497,
+     "VILL_CODE": "0714",
+     "VILL_LABEL": "Amourj ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 498,
+     "VILL_CODE": "0715",
+     "VILL_LABEL": "Barkéol ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 499,
+     "VILL_CODE": "0716",
+     "VILL_LABEL": "Monguel ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 500,
+     "VILL_CODE": "0401",
+     "VILL_LABEL": "CONAKRY",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 501,
+     "VILL_CODE": "0402",
+     "VILL_LABEL": "Kankan",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 502,
+     "VILL_CODE": "0403",
+     "VILL_LABEL": "KINDIA ",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 503,
+     "VILL_CODE": "0404",
+     "VILL_LABEL": "N'ZÉRÉKORÉ",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 504,
+     "VILL_CODE": "0405",
+     "VILL_LABEL": "BOKÉ",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 505,
+     "VILL_CODE": "0501",
+     "VILL_LABEL": "SFAX  ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 506,
+     "VILL_CODE": "0502",
+     "VILL_LABEL": "Bizerte",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 507,
+     "VILL_CODE": "0503",
+     "VILL_LABEL": "TUNIS",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 508,
+     "VILL_CODE": "0504",
+     "VILL_LABEL": "MONASTIR",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 509,
+     "VILL_CODE": "0505",
+     "VILL_LABEL": "Jemmel",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 510,
+     "VILL_CODE": "0506",
+     "VILL_LABEL": "ZAGHOUAN",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 511,
+     "VILL_CODE": "0406",
+     "VILL_LABEL": "Macenta ",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 512,
+     "VILL_CODE": "0407",
+     "VILL_LABEL": "Mandiana ",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 513,
+     "VILL_CODE": "0408",
+     "VILL_LABEL": "Kérouané",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 514,
+     "VILL_CODE": "0801",
+     "VILL_LABEL": "YAOUNDE",
+     "PAYE_ID": 217
+    },
+    {
+     "VILL_ID": 515,
+     "VILL_CODE": "0901",
+     "VILL_LABEL": "Kinshasa",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 516,
+     "VILL_CODE": "0902",
+     "VILL_LABEL": "Bukavu",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 517,
+     "VILL_CODE": "1001",
+     "VILL_LABEL": "Ouagadougou ",
+     "PAYE_ID": 219
+    },
+    {
+     "VILL_ID": 518,
+     "VILL_CODE": "0507",
+     "VILL_LABEL": "SOUSSE",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 519,
+     "VILL_CODE": "0508",
+     "VILL_LABEL": "Gabès",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 520,
+     "VILL_CODE": "0509",
+     "VILL_LABEL": "Djérissa",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 522,
+     "VILL_CODE": "511",
+     "VILL_LABEL": "Djerba",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 523,
+     "VILL_CODE": "0510",
+     "VILL_LABEL": "Djerba",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 524,
+     "VILL_CODE": "0511",
+     "VILL_LABEL": "Siliana",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 525,
+     "VILL_CODE": "0903",
+     "VILL_LABEL": "Nord-Kivu",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 526,
+     "VILL_CODE": "0904",
+     "VILL_LABEL": "Bas-Congo",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 527,
+     "VILL_CODE": "0905",
+     "VILL_LABEL": "Sud-Kivu",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 528,
+     "VILL_CODE": "0906",
+     "VILL_LABEL": "Kindu ",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 529,
+     "VILL_CODE": "0907",
+     "VILL_LABEL": "Bandundu",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 530,
+     "VILL_CODE": "0512",
+     "VILL_LABEL": "Bardo",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 531,
+     "VILL_CODE": "0513",
+     "VILL_LABEL": "Sidi Bouzid ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 532,
+     "VILL_CODE": "0514",
+     "VILL_LABEL": "kef",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 533,
+     "VILL_CODE": "0515",
+     "VILL_LABEL": "Medenine",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 534,
+     "VILL_CODE": "0516",
+     "VILL_LABEL": "RADES",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 535,
+     "VILL_CODE": "0210",
+     "VILL_LABEL": "Sitakily ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 536,
+     "VILL_CODE": "0301",
+     "VILL_LABEL": "Libreville",
+     "PAYE_ID": 211
+    },
+    {
+     "VILL_ID": 537,
+     "VILL_CODE": "0606",
+     "VILL_LABEL": "Agnam Civol ",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 538,
+     "VILL_CODE": "0607",
+     "VILL_LABEL": "PEKESSE",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 539,
+     "VILL_CODE": "0517",
+     "VILL_LABEL": "baja",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 540,
+     "VILL_CODE": "0518",
+     "VILL_LABEL": "rafraf",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 541,
+     "VILL_CODE": "0519",
+     "VILL_LABEL": "ariana",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 542,
+     "VILL_CODE": "0608",
+     "VILL_LABEL": "ogo",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 543,
+     "VILL_CODE": "0717",
+     "VILL_LABEL": "Nouadhibou",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 544,
+     "VILL_CODE": "0609",
+     "VILL_LABEL": "pikine",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 545,
+     "VILL_CODE": "0610",
+     "VILL_LABEL": "zingchor",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 546,
+     "VILL_CODE": "0520",
+     "VILL_LABEL": "Tozeur",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 547,
+     "VILL_CODE": "0521",
+     "VILL_LABEL": "kairouan",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 548,
+     "VILL_CODE": "1101",
+     "VILL_LABEL": "algerie",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 549,
+     "VILL_CODE": "1201",
+     "VILL_LABEL": "caire",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 550,
+     "VILL_CODE": "1202",
+     "VILL_LABEL": "sinae",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 551,
+     "VILL_CODE": "0522",
+     "VILL_LABEL": "gafsa",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 552,
+     "VILL_CODE": "1203",
+     "VILL_LABEL": "alexandrie",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 553,
+     "VILL_CODE": "1204",
+     "VILL_LABEL": "souhaj",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 554,
+     "VILL_CODE": "1205",
+     "VILL_LABEL": "doumyat",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 555,
+     "VILL_CODE": "1206",
+     "VILL_LABEL": "elghardaa",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 556,
+     "VILL_CODE": "1207",
+     "VILL_LABEL": "assouan",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 557,
+     "VILL_CODE": "1208",
+     "VILL_LABEL": "port said",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 558,
+     "VILL_CODE": "1301",
+     "VILL_LABEL": "brazaville",
+     "PAYE_ID": 222
+    },
+    {
+     "VILL_ID": 559,
+     "VILL_CODE": "0523",
+     "VILL_LABEL": "MAHDIA",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 560,
+     "VILL_CODE": "0524",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 561,
+     "VILL_CODE": "05514",
+     "VILL_LABEL": "NABEUL",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 562,
+     "VILL_CODE": "0525",
+     "VILL_LABEL": "Salakta",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 563,
+     "VILL_CODE": "0526",
+     "VILL_LABEL": "BEN GUERDENE",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 564,
+     "VILL_CODE": "0527",
+     "VILL_LABEL": "BIZERTE",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 565,
+     "VILL_CODE": "514",
+     "VILL_LABEL": "METLAOUI",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 566,
+     "VILL_CODE": "0528",
+     "VILL_LABEL": "METLAOUI",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 567,
+     "VILL_CODE": "0529",
+     "VILL_LABEL": "GAFSA",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 568,
+     "VILL_CODE": "0530",
+     "VILL_LABEL": "GHRAIBA",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 569,
+     "VILL_CODE": "0531",
+     "VILL_LABEL": "GABES",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 570,
+     "VILL_CODE": "1003",
+     "VILL_LABEL": "Burkina Faso,",
+     "PAYE_ID": 219
+    },
+    {
+     "VILL_ID": 571,
+     "VILL_CODE": "05515",
+     "VILL_LABEL": "ben arous",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 572,
+     "VILL_CODE": "0532",
+     "VILL_LABEL": "Mégrine ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 573,
+     "VILL_CODE": "0533",
+     "VILL_LABEL": "TAJEROUINE",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 574,
+     "VILL_CODE": "0534",
+     "VILL_LABEL": "DAHMANI",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 575,
+     "VILL_CODE": "0535",
+     "VILL_LABEL": "EL KSOUR",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 577,
+     "VILL_CODE": "0536",
+     "VILL_LABEL": "Kasserine",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 578,
+     "VILL_CODE": "1230",
+     "VILL_LABEL": "al ismailia al jadida",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 579,
+     "VILL_CODE": "0537",
+     "VILL_LABEL": "GOULETTE  ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 580,
+     "VILL_CODE": "0611",
+     "VILL_LABEL": "Yang Yang",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 581,
+     "VILL_CODE": "0612",
+     "VILL_LABEL": "Niassène Djilor",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 582,
+     "VILL_CODE": "0613",
+     "VILL_LABEL": "Diakhao",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 583,
+     "VILL_CODE": "0718",
+     "VILL_LABEL": "Lebheir",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 584,
+     "VILL_CODE": "0719",
+     "VILL_LABEL": "Devea",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 585,
+     "VILL_CODE": "0720",
+     "VILL_LABEL": "Rdeidie",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 586,
+     "VILL_CODE": "0721",
+     "VILL_LABEL": "Lehweissi",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 587,
+     "VILL_CODE": "0908",
+     "VILL_LABEL": "GOMA",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 588,
+     "VILL_CODE": "0211",
+     "VILL_LABEL": "Sikasso ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 589,
+     "VILL_CODE": "0538",
+     "VILL_LABEL": "Tataouine ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 590,
+     "VILL_CODE": "0539",
+     "VILL_LABEL": "KEBILI",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 591,
+     "VILL_CODE": "0540",
+     "VILL_LABEL": "AGAREB",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 592,
+     "VILL_CODE": "0541",
+     "VILL_LABEL": "ZARZIS ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 593,
+     "VILL_CODE": "0909",
+     "VILL_LABEL": "Mbuji-Mayi",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 594,
+     "VILL_CODE": "0910",
+     "VILL_LABEL": "lodja",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 595,
+     "VILL_CODE": "0722",
+     "VILL_LABEL": "Lehreyjatt",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 596,
+     "VILL_CODE": "0723",
+     "VILL_LABEL": "Twille",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 597,
+     "VILL_CODE": "0724",
+     "VILL_LABEL": "Tenaha",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 598,
+     "VILL_CODE": "0725",
+     "VILL_LABEL": "Zouerate ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 599,
+     "VILL_CODE": "0911",
+     "VILL_LABEL": "SUD KIVU",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 600,
+     "VILL_CODE": "0912",
+     "VILL_LABEL": " EQUATEUR",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 601,
+     "VILL_CODE": "0913",
+     "VILL_LABEL": "MANIEMA",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 602,
+     "VILL_CODE": "0914",
+     "VILL_LABEL": "Kikwit",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 603,
+     "VILL_CODE": "0915",
+     "VILL_LABEL": "Kenge",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 604,
+     "VILL_CODE": "0542",
+     "VILL_LABEL": "manouba",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 605,
+     "VILL_CODE": "0543",
+     "VILL_LABEL": "SIDI MAKHLOUF",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 606,
+     "VILL_CODE": "0544",
+     "VILL_LABEL": "EZZAHRA",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 607,
+     "VILL_CODE": "1302",
+     "VILL_LABEL": "BANGUI",
+     "PAYE_ID": 222
+    },
+    {
+     "VILL_ID": 608,
+     "VILL_CODE": "0726",
+     "VILL_LABEL": "leweinatt talhe",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 609,
+     "VILL_CODE": "1209",
+     "VILL_LABEL": "Charm el-Cheikh",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 610,
+     "VILL_CODE": "0545",
+     "VILL_LABEL": "Teboulba",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 611,
+     "VILL_CODE": "0546",
+     "VILL_LABEL": "LA MARSA",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 612,
+     "VILL_CODE": "0104",
+     "VILL_LABEL": "Bangolo",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 613,
+     "VILL_CODE": "0614",
+     "VILL_LABEL": "matam",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 614,
+     "VILL_CODE": "0547",
+     "VILL_LABEL": "Benbla Mnara ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 615,
+     "VILL_CODE": "0212",
+     "VILL_LABEL": "Koulibiac",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 616,
+     "VILL_CODE": "0213",
+     "VILL_LABEL": "KOULIKORO",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 617,
+     "VILL_CODE": "0214",
+     "VILL_LABEL": "Niono ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 618,
+     "VILL_CODE": "0215",
+     "VILL_LABEL": "PLAZA",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 619,
+     "VILL_CODE": "01111",
+     "VILL_LABEL": "BANANA",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 620,
+     "VILL_CODE": "0916",
+     "VILL_LABEL": "MONGALA"
+    },
+    {
+     "VILL_ID": 621,
+     "VILL_CODE": "0917",
+     "VILL_LABEL": "TSHUAPA"
+    },
+    {
+     "VILL_ID": 622,
+     "VILL_CODE": "0548",
+     "VILL_LABEL": "JENDOUBA"
+    },
+    {
+     "VILL_ID": 623,
+     "VILL_CODE": "0615",
+     "VILL_LABEL": "Fatick"
+    },
+    {
+     "VILL_ID": 624,
+     "VILL_CODE": "0616",
+     "VILL_LABEL": "Kolda",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 625,
+     "VILL_CODE": "0615",
+     "VILL_LABEL": "Fatick",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 626,
+     "VILL_CODE": "0617",
+     "VILL_LABEL": "Tambacounda",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 627,
+     "VILL_CODE": "0618",
+     "VILL_LABEL": "Ziguinchor",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 628,
+     "VILL_CODE": "0105",
+     "VILL_LABEL": "BOUAKE",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 629,
+     "VILL_CODE": "0216",
+     "VILL_LABEL": "Gao",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 630,
+     "VILL_CODE": "0409",
+     "VILL_LABEL": "Forécariah ",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 631,
+     "VILL_CODE": "0548",
+     "VILL_LABEL": "Remada",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 632,
+     "VILL_CODE": "0549",
+     "VILL_LABEL": "Sidi Thabet",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 633,
+     "VILL_CODE": "0217",
+     "VILL_LABEL": "Katibougou",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 634,
+     "VILL_CODE": "0620",
+     "VILL_LABEL": "DIOURBEL",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 635,
+     "VILL_CODE": "0621",
+     "VILL_LABEL": "KAOLACK",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 636,
+     "VILL_CODE": "0622",
+     "VILL_LABEL": "LOUGA",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 637,
+     "VILL_CODE": "0623",
+     "VILL_LABEL": "MATAM",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 638,
+     "VILL_CODE": "0624",
+     "VILL_LABEL": "TIVAOUANE",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 639,
+     "VILL_CODE": "0625",
+     "VILL_LABEL": "THIES",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 640,
+     "VILL_CODE": "06651",
+     "VILL_LABEL": "THIES",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 641,
+     "VILL_CODE": "06652",
+     "VILL_LABEL": "THIES",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 642,
+     "VILL_CODE": "0626",
+     "VILL_LABEL": "THIES",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 643,
+     "VILL_CODE": "0916",
+     "VILL_LABEL": "kiwilu",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 644,
+     "VILL_CODE": "0550",
+     "VILL_LABEL": "Menzel Bourguiba",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 645,
+     "VILL_CODE": "0627",
+     "VILL_LABEL": "Sédhiou",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 646,
+     "VILL_CODE": "0628",
+     "VILL_LABEL": "DIOHINE",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 647,
+     "VILL_CODE": "0629",
+     "VILL_LABEL": "JOAL",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 648,
+     "VILL_CODE": "0617",
+     "VILL_LABEL": "Bunia",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 649,
+     "VILL_CODE": "0917",
+     "VILL_LABEL": "KISANGANI",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 650,
+     "VILL_CODE": "0918",
+     "VILL_LABEL": "BUNIA",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 651,
+     "VILL_CODE": "0919",
+     "VILL_LABEL": "KWANGO",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 652,
+     "VILL_CODE": "0920",
+     "VILL_LABEL": "MAI NDOMBE ",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 653,
+     "VILL_CODE": "0921",
+     "VILL_LABEL": "Maï-Ndombe",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 654,
+     "VILL_CODE": "0551",
+     "VILL_LABEL": "Grombalia",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 655,
+     "VILL_CODE": "0552",
+     "VILL_LABEL": "Kaleet Snen",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 656,
+     "VILL_CODE": "0218",
+     "VILL_LABEL": "kadiana",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 657,
+     "VILL_CODE": "0219",
+     "VILL_LABEL": "Kolokoba",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 658,
+     "VILL_CODE": "0220",
+     "VILL_LABEL": "Tiémala Banimonotié",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 659,
+     "VILL_CODE": "0221",
+     "VILL_LABEL": "TAFACIRGA ",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 660,
+     "VILL_CODE": "0222",
+     "VILL_LABEL": "mahou",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 661,
+     "VILL_CODE": "0922",
+     "VILL_LABEL": "KALEMIE",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 662,
+     "VILL_CODE": "0923",
+     "VILL_LABEL": "LUBUMBASHI",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 663,
+     "VILL_CODE": "0924",
+     "VILL_LABEL": "KANANGA",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 664,
+     "VILL_CODE": "0106",
+     "VILL_LABEL": "Man",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 665,
+     "VILL_CODE": "08p06",
+     "VILL_LABEL": "UNESCO",
+     "PAYE_ID": 217
+    },
+    {
+     "VILL_ID": 666,
+     "VILL_CODE": "08810",
+     "VILL_LABEL": "UNESCO",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 217
+    },
+    {
+     "VILL_ID": 667,
+     "VILL_CODE": "1002",
+     "VILL_LABEL": "Boulkiemdé",
+     "PAYE_ID": 219
+    },
+    {
+     "VILL_ID": 668,
+     "VILL_CODE": "1004",
+     "VILL_LABEL": " Bougouriba  ",
+     "PAYE_ID": 219
+    },
+    {
+     "VILL_ID": 669,
+     "VILL_CODE": "1005",
+     "VILL_LABEL": " Nayala",
+     "PAYE_ID": 219
+    },
+    {
+     "VILL_ID": 670,
+     "VILL_CODE": "0925",
+     "VILL_LABEL": "Nord-Ubangi ",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 671,
+     "VILL_CODE": "0926",
+     "VILL_LABEL": "KASAÏ-ORIENTAL.",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 672,
+     "VILL_CODE": "0223",
+     "VILL_LABEL": "BANKASS",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 673,
+     "VILL_CODE": "05516",
+     "VILL_LABEL": "jendouba",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 674,
+     "VILL_CODE": "0553",
+     "VILL_LABEL": "sidi hssine",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 675,
+     "VILL_CODE": "0224",
+     "VILL_LABEL": "Markala",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 676,
+     "VILL_CODE": "0225",
+     "VILL_LABEL": "koro",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 677,
+     "VILL_CODE": "0226",
+     "VILL_LABEL": "N’Toba",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 678,
+     "VILL_CODE": "0227",
+     "VILL_LABEL": "YOROSSO",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 679,
+     "VILL_CODE": "0927",
+     "VILL_LABEL": "Kongolo",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 680,
+     "VILL_CODE": "0410",
+     "VILL_LABEL": "dalaba",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 681,
+     "VILL_CODE": "0411",
+     "VILL_LABEL": "KOUROUSSA",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 682,
+     "VILL_CODE": "0928",
+     "VILL_LABEL": "Kayes",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 683,
+     "VILL_CODE": "0107",
+     "VILL_LABEL": "Bouna",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 684,
+     "VILL_CODE": "0108",
+     "VILL_LABEL": " Bondoukou",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 685,
+     "VILL_CODE": "0727",
+     "VILL_LABEL": " Brakna",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 686,
+     "VILL_CODE": "0728",
+     "VILL_LABEL": "Gorgol",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 687,
+     "VILL_CODE": "0554",
+     "VILL_LABEL": "Sakiet Eddaier",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 688,
+     "VILL_CODE": "0555",
+     "VILL_LABEL": "El Battane",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 689,
+     "VILL_CODE": "0556",
+     "VILL_LABEL": "zriba",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 690,
+     "VILL_CODE": "0557",
+     "VILL_LABEL": "Ksibet Mediouni ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 691,
+     "VILL_CODE": "0558",
+     "VILL_LABEL": "El Mourouj",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 692,
+     "VILL_CODE": "0412",
+     "VILL_LABEL": "Dabola",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 693,
+     "VILL_CODE": "0413",
+     "VILL_LABEL": "Dinguiraye",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 694,
+     "VILL_CODE": "0414",
+     "VILL_LABEL": "Kouroussa",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 695,
+     "VILL_CODE": "0630",
+     "VILL_LABEL": "Gandon",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 696,
+     "VILL_CODE": "0631",
+     "VILL_LABEL": "GOUINA",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 697,
+     "VILL_CODE": "0632",
+     "VILL_LABEL": "KAFFRINE ",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 698,
+     "VILL_CODE": "0729",
+     "VILL_LABEL": "M’Bagne.",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 699,
+     "VILL_CODE": "0730",
+     "VILL_LABEL": "Tikobra",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 700,
+     "VILL_CODE": "0929",
+     "VILL_LABEL": "Nkundi",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 701,
+     "VILL_CODE": "0560",
+     "VILL_LABEL": "tala",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 702,
+     "VILL_CODE": "0562",
+     "VILL_LABEL": "El Ala",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 703,
+     "VILL_CODE": "0563",
+     "VILL_LABEL": "Sbeitla",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 704,
+     "VILL_CODE": "0564",
+     "VILL_LABEL": "Borj El Amri",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 705,
+     "VILL_CODE": "0633",
+     "VILL_LABEL": "Saly Portudal",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 706,
+     "VILL_CODE": "0634",
+     "VILL_LABEL": "Vélingara",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 707,
+     "VILL_CODE": "0635",
+     "VILL_LABEL": "Kédougou",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 708,
+     "VILL_CODE": "0636",
+     "VILL_LABEL": "Diawara",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 709,
+     "VILL_CODE": "0930",
+     "VILL_LABEL": "Kongo Central",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 710,
+     "VILL_CODE": "0731",
+     "VILL_LABEL": "Boulenouar",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 711,
+     "VILL_CODE": "0565",
+     "VILL_LABEL": "Essned",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 712,
+     "VILL_CODE": "0637",
+     "VILL_LABEL": "THILOGNE",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 713,
+     "VILL_CODE": "0638",
+     "VILL_LABEL": "SENDIOU",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 714,
+     "VILL_CODE": "0639",
+     "VILL_LABEL": "Keur Samba KANE",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 715,
+     "VILL_CODE": "0931",
+     "VILL_LABEL": "Tshopo",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 716,
+     "VILL_CODE": "0932",
+     "VILL_LABEL": "Province du Bas-Uélé",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 717,
+     "VILL_CODE": "0933",
+     "VILL_LABEL": "Sud-Ubangi",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 718,
+     "VILL_CODE": "0934",
+     "VILL_LABEL": "Haut-Katanga",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 719,
+     "VILL_CODE": "0229",
+     "VILL_LABEL": "Kangaba",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 720,
+     "VILL_CODE": "0935",
+     "VILL_LABEL": " Kasaï-Central",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 721,
+     "VILL_CODE": "0732",
+     "VILL_LABEL": " Boghé",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 722,
+     "VILL_CODE": "0230",
+     "VILL_LABEL": "Diabaly",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 723,
+     "VILL_CODE": "0231",
+     "VILL_LABEL": "TIAKADOUGOU-FARABA",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 724,
+     "VILL_CODE": "0936",
+     "VILL_LABEL": "Matadi ",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 725,
+     "VILL_CODE": "0733",
+     "VILL_LABEL": " Ould Yenge",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 726,
+     "VILL_CODE": "0566",
+     "VILL_LABEL": "Chnenni Nahal",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 727,
+     "VILL_CODE": "1006",
+     "VILL_LABEL": "Koulikoro",
+     "PAYE_ID": 219
+    },
+    {
+     "VILL_ID": 728,
+     "VILL_CODE": "0937",
+     "VILL_LABEL": "Kalima",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 729,
+     "VILL_CODE": "0938",
+     "VILL_LABEL": "Gombe",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 730,
+     "VILL_CODE": "0232",
+     "VILL_LABEL": "konna",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 731,
+     "VILL_CODE": "0233",
+     "VILL_LABEL": "Noumoubougou",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 732,
+     "VILL_CODE": "0234",
+     "VILL_LABEL": "HAIRE",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 733,
+     "VILL_CODE": "0640",
+     "VILL_LABEL": "Thiadiaye",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 734,
+     "VILL_CODE": "0641",
+     "VILL_LABEL": "MBACKÉ",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 735,
+     "VILL_CODE": "0642",
+     "VILL_LABEL": "KAFFRINE",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 736,
+     "VILL_CODE": "0939",
+     "VILL_LABEL": "Kasaï ",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 737,
+     "VILL_CODE": "0567",
+     "VILL_LABEL": "Akouda",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 738,
+     "VILL_CODE": "0643",
+     "VILL_LABEL": "ndioum",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 739,
+     "VILL_CODE": "0644",
+     "VILL_LABEL": "Dioffior",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 740,
+     "VILL_CODE": "0645",
+     "VILL_LABEL": "NIODIOR",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 741,
+     "VILL_CODE": "0568",
+     "VILL_LABEL": "Goubellat",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 742,
+     "VILL_CODE": "1210",
+     "VILL_LABEL": "assiout",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 743,
+     "VILL_CODE": "1211",
+     "VILL_LABEL": "beni suef",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 744,
+     "VILL_CODE": "1212",
+     "VILL_LABEL": "ismailia",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 745,
+     "VILL_CODE": "0569",
+     "VILL_LABEL": "manzah",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 747,
+     "VILL_CODE": "0570",
+     "VILL_LABEL": "bouargoub",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 748,
+     "VILL_CODE": "0571",
+     "VILL_LABEL": "Soukra ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 749,
+     "VILL_CODE": "0572",
+     "VILL_LABEL": "Bargou ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 750,
+     "VILL_CODE": "0573",
+     "VILL_LABEL": "beni hassen  ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 751,
+     "VILL_CODE": "1214",
+     "VILL_LABEL": "minya",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 752,
+     "VILL_CODE": "1213",
+     "VILL_LABEL": "Zeitoun ",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 753,
+     "VILL_CODE": "1215",
+     "VILL_LABEL": "Sadat",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 754,
+     "VILL_CODE": "1216",
+     "VILL_LABEL": "balate",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 755,
+     "VILL_CODE": "0574",
+     "VILL_LABEL": "Messadine  ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 756,
+     "VILL_CODE": "0575",
+     "VILL_LABEL": "Souassi ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 757,
+     "VILL_CODE": "0576",
+     "VILL_LABEL": "mnihla ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 758,
+     "VILL_CODE": "0577",
+     "VILL_LABEL": "Bennane ",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 759,
+     "VILL_CODE": "0578",
+     "VILL_LABEL": "mornag",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 760,
+     "VILL_CODE": "0734",
+     "VILL_LABEL": " hassi abdellah",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 761,
+     "VILL_CODE": "0735",
+     "VILL_LABEL": "gouraye",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 762,
+     "VILL_CODE": "0415",
+     "VILL_LABEL": "Kissidougou",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 763,
+     "VILL_CODE": "0416",
+     "VILL_LABEL": "Faranah ",
+     "PAYE_ID": 212
+    },
+    {
+     "VILL_ID": 764,
+     "VILL_CODE": "1217",
+     "VILL_LABEL": "Fayoum",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 765,
+     "VILL_CODE": "1218",
+     "VILL_LABEL": "Matrouh",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 766,
+     "VILL_CODE": "1219",
+     "VILL_LABEL": "15 mayo",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 768,
+     "VILL_CODE": "1220",
+     "VILL_LABEL": "Dakahlia",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 769,
+     "VILL_CODE": "0579",
+     "VILL_LABEL": "SAKIET EZZIT",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 770,
+     "VILL_CODE": "1221",
+     "VILL_LABEL": "Akhmim eljadida ",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 771,
+     "VILL_CODE": "1222",
+     "VILL_LABEL": "Menoufia",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 772,
+     "VILL_CODE": "1223",
+     "VILL_LABEL": "Gizah",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 773,
+     "VILL_CODE": "1224",
+     "VILL_LABEL": "Qena eljadida",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 774,
+     "VILL_CODE": "1225",
+     "VILL_LABEL": "talkha",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 775,
+     "VILL_CODE": "1226",
+     "VILL_LABEL": "charquia",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 776,
+     "VILL_CODE": "0580",
+     "VILL_LABEL": "Zahret Mediene",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 777,
+     "VILL_CODE": "1227",
+     "VILL_LABEL": "quena",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 778,
+     "VILL_CODE": "0581",
+     "VILL_LABEL": "mornag",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 779,
+     "VILL_CODE": "0807",
+     "VILL_LABEL": "douala",
+     "PAYE_ID": 217
+    },
+    {
+     "VILL_ID": 780,
+     "VILL_CODE": "0582",
+     "VILL_LABEL": "SERS",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 781,
+     "VILL_CODE": "0583",
+     "VILL_LABEL": "Hammet EL Jerid",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 782,
+     "VILL_CODE": "0584",
+     "VILL_LABEL": "Dar Chaabane El Fehri",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 783,
+     "VILL_CODE": "0585",
+     "VILL_LABEL": "Hammamet",
+     "PAYE_ID": 213
+    },
+    {
+     "VILL_ID": 784,
+     "VILL_CODE": "1228",
+     "VILL_LABEL": "fenara",
+     "PAYE_ID": 221
+    },
+    {
+     "VILL_ID": 785,
+     "VILL_CODE": "0940",
+     "VILL_LABEL": "ituri",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 786,
+     "VILL_CODE": "0736",
+     "VILL_LABEL": "Dhar",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 787,
+     "VILL_CODE": "0737",
+     "VILL_LABEL": "Guerou",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 788,
+     "VILL_CODE": "1103",
+     "VILL_LABEL": "ain defla",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 789,
+     "VILL_CODE": "1102",
+     "VILL_LABEL": "blida",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 790,
+     "VILL_CODE": "1104",
+     "VILL_LABEL": "adrar",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 791,
+     "VILL_CODE": "0738",
+     "VILL_LABEL": "Tichitt",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 792,
+     "VILL_CODE": "0739",
+     "VILL_LABEL": "Ghabou ",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 793,
+     "VILL_CODE": "1105",
+     "VILL_LABEL": "Ouargla ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 794,
+     "VILL_CODE": "1106",
+     "VILL_LABEL": "Constantine ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 795,
+     "VILL_CODE": "0646",
+     "VILL_LABEL": "Rufisque",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 796,
+     "VILL_CODE": "0647",
+     "VILL_LABEL": "Cambé­rène",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 797,
+     "VILL_CODE": "1107",
+     "VILL_LABEL": "batna",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 798,
+     "VILL_CODE": "1108",
+     "VILL_LABEL": "Boumerdes",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 799,
+     "VILL_CODE": "1109",
+     "VILL_LABEL": "Béchar ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 800,
+     "VILL_CODE": "1110",
+     "VILL_LABEL": "annaba",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 801,
+     "VILL_CODE": "1111",
+     "VILL_LABEL": "Jijel ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 802,
+     "VILL_CODE": "1112",
+     "VILL_LABEL": "Illizi",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 803,
+     "VILL_CODE": "0648",
+     "VILL_LABEL": "koki",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 804,
+     "VILL_CODE": "1113",
+     "VILL_LABEL": "Saida ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 805,
+     "VILL_CODE": "1114",
+     "VILL_LABEL": "Bejaia ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 806,
+     "VILL_CODE": "1115",
+     "VILL_LABEL": "Tlemcen ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 807,
+     "VILL_CODE": "1116",
+     "VILL_LABEL": "Skikda ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 808,
+     "VILL_CODE": "1117",
+     "VILL_LABEL": "Djelfa ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 809,
+     "VILL_CODE": "1118",
+     "VILL_LABEL": " M'sila ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 810,
+     "VILL_CODE": "1119",
+     "VILL_LABEL": "Sétif ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 811,
+     "VILL_CODE": "1120",
+     "VILL_LABEL": "medea",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 812,
+     "VILL_CODE": "1121",
+     "VILL_LABEL": "Naama ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 813,
+     "VILL_CODE": "1122",
+     "VILL_LABEL": "Guelma ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 814,
+     "VILL_CODE": "1123",
+     "VILL_LABEL": "Bouira ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 815,
+     "VILL_CODE": "1124",
+     "VILL_LABEL": "tiaret",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 816,
+     "VILL_CODE": "1125",
+     "VILL_LABEL": "alger",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 817,
+     "VILL_CODE": "0740",
+     "VILL_LABEL": "Maghama",
+     "PAYE_ID": 215
+    },
+    {
+     "VILL_ID": 818,
+     "VILL_CODE": "1126",
+     "VILL_LABEL": "Oume El Bouahi ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 819,
+     "VILL_CODE": "1127",
+     "VILL_LABEL": "Tizi Ouzou ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 820,
+     "VILL_CODE": "1128",
+     "VILL_LABEL": "Zahana ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 821,
+     "VILL_CODE": "1129",
+     "VILL_LABEL": "eltarf",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 822,
+     "VILL_CODE": "1130",
+     "VILL_LABEL": "el oued",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 823,
+     "VILL_CODE": "1131",
+     "VILL_LABEL": " Laghouat ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 824,
+     "VILL_CODE": "1132",
+     "VILL_LABEL": " Biskra ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 825,
+     "VILL_CODE": "1133",
+     "VILL_LABEL": "tebesa",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 826,
+     "VILL_CODE": "1134",
+     "VILL_LABEL": "Oran ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 827,
+     "VILL_CODE": "1135",
+     "VILL_LABEL": "Ghardaia",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 828,
+     "VILL_CODE": "1136",
+     "VILL_LABEL": "Tindouf",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 829,
+     "VILL_CODE": "1137",
+     "VILL_LABEL": "Tipaza ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 830,
+     "VILL_CODE": "1138",
+     "VILL_LABEL": "Chlef ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 831,
+     "VILL_CODE": "1139",
+     "VILL_LABEL": "El Bayadh ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 832,
+     "VILL_CODE": "1140",
+     "VILL_LABEL": "Tamanrasset ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 833,
+     "VILL_CODE": "1141",
+     "VILL_LABEL": "Mostaganem ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 834,
+     "VILL_CODE": "1142",
+     "VILL_LABEL": "Tissemsilt ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 835,
+     "VILL_CODE": "1143",
+     "VILL_LABEL": "El Oued ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 836,
+     "VILL_CODE": "09p70",
+     "VILL_LABEL": "path",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 837,
+     "VILL_CODE": "1144",
+     "VILL_LABEL": "Defla ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 838,
+     "VILL_CODE": "1145",
+     "VILL_LABEL": "el biar",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 839,
+     "VILL_CODE": "1146",
+     "VILL_LABEL": "mila",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 840,
+     "VILL_CODE": "1147",
+     "VILL_LABEL": "Ain Témouchent ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 841,
+     "VILL_CODE": "0941",
+     "VILL_LABEL": "tshuppa",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 842,
+     "VILL_CODE": "1148",
+     "VILL_LABEL": "Bordj Bou Arréridj ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 843,
+     "VILL_CODE": "1149",
+     "VILL_LABEL": "Relizane ",
+     "PAYE_ID": 220
+    },
+    {
+     "VILL_ID": 844,
+     "VILL_CODE": "0942",
+     "PAYE_ID": 218
+    },
+    {
+     "VILL_ID": 846,
+     "VILL_CODE": "0235",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 847,
+     "VILL_CODE": "02238",
+     "VILL_LABEL": "YIRIMADIO",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 210
+    },
+    {
+     "VILL_ID": 850,
+     "VILL_CODE": "1007",
+     "VILL_LABEL": "Burkina Faso",
+     "VILL_OBSRV": "101007",
+     "PAYE_ID": 219,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 853,
+     "VILL_CODE": "1422",
+     "VILL_LABEL": "PAYS D'AFRIQUE",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 854,
+     "VILL_CODE": "109",
+     "VILL_LABEL": "Cote d'ivoire",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 209,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 855,
+     "VILL_CODE": "1522",
+     "VILL_LABEL": "Guinée",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 856,
+     "VILL_CODE": "1622",
+     "VILL_LABEL": "Congo",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 857,
+     "VILL_CODE": "649",
+     "VILL_LABEL": "Sénégal",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 214,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 858,
+     "VILL_CODE": "1722",
+     "VILL_LABEL": "PNAH",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 859,
+     "VILL_CODE": "1822",
+     "VILL_LABEL": "PDA-PL",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 860,
+     "VILL_CODE": "1922",
+     "VILL_LABEL": "P2RS",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 861,
+     "VILL_CODE": "2022",
+     "VILL_LABEL": "P2RS°",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 862,
+     "VILL_CODE": "2122",
+     "VILL_LABEL": "DRABHYD",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 863,
+     "VILL_CODE": "2222",
+     "VILL_LABEL": "DGEP",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 864,
+     "VILL_CODE": "2322",
+     "VILL_LABEL": "AEPS",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 865,
+     "VILL_CODE": "2422",
+     "VILL_LABEL": "RTB",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 866,
+     "VILL_CODE": "2522",
+     "VILL_LABEL": "DGRE",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 867,
+     "VILL_CODE": "2622",
+     "VILL_LABEL": "firme",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 868,
+     "VILL_CODE": "2722",
+     "VILL_LABEL": "inter RN3",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 869,
+     "VILL_CODE": "2822",
+     "VILL_LABEL": "PAYS DU GOLFE",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 870,
+     "VILL_CODE": "2922",
+     "VILL_LABEL": "Bénin",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 871,
+     "VILL_CODE": "741",
+     "VILL_LABEL": "MAURITANIE",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 215,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 872,
+     "VILL_CODE": "1501",
+     "VILL_LABEL": "LIBYE",
+     "PAYE_ID": 239,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 873,
+     "VILL_CODE": "808",
+     "VILL_LABEL": "Cameroun",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 217,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 874,
+     "VILL_CODE": "236",
+     "VILL_LABEL": "Mali",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 210,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 875,
+     "VILL_CODE": "4622",
+     "VILL_LABEL": "Liberia",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 876,
+     "VILL_CODE": "4722",
+     "VILL_LABEL": "Togo",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 877,
+     "VILL_CODE": "4822",
+     "VILL_LABEL": "Ethiopie",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 878,
+     "VILL_CODE": "5122",
+     "VILL_LABEL": "Cap Vert",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 879,
+     "VILL_CODE": "5522",
+     "VILL_LABEL": "Niger",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 880,
+     "VILL_CODE": "6222",
+     "VILL_LABEL": "Djibouti",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 223,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 882,
+     "VILL_CODE": "512",
+     "VILL_LABEL": "TUNISIE",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 213,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 884,
+     "VILL_CODE": "2522",
+     "VILL_LABEL": "Keur Momar Sarr",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 333,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 885,
+     "VILL_CODE": "2622",
+     "VILL_LABEL": "AGETIP",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 334,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 886,
+     "VILL_CODE": "2722",
+     "VILL_LABEL": "SIGIF",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 335,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 887,
+     "VILL_CODE": "302",
+     "VILL_LABEL": "Gabon",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 211,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 888,
+     "VILL_CODE": "2822",
+     "VILL_LABEL": "Tchad",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 336,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 889,
+     "VILL_CODE": "1008",
+     "VILL_LABEL": "GAOUA",
+     "PAYE_ID": 219
+    },
+    {
+     "VILL_ID": 890,
+     "VILL_CODE": "2922",
+     "VILL_LABEL": "Somalie",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 337,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 891,
+     "VILL_CODE": "3022",
+     "VILL_LABEL": "Kenya",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 338,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 892,
+     "VILL_CODE": "3122",
+     "VILL_LABEL": "Angola",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 339,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 893,
+     "VILL_CODE": "3222",
+     "VILL_LABEL": "Sierra Leone",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 340,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 894,
+     "VILL_CODE": "22",
+     "VILL_LABEL": "Praia",
+     "PAYE_ID": 330
+    },
+    {
+     "VILL_ID": 895,
+     "VILL_CODE": "22100",
+     "VILL_OBSRV": "Praia",
+     "PAYE_ID": 330
+    },
+    {
+     "VILL_ID": 896,
+     "VILL_CODE": "2201",
+     "VILL_LABEL": "Praia",
+     "PAYE_ID": 330
+    },
+    {
+     "VILL_ID": 897,
+     "VILL_CODE": "1701",
+     "VILL_LABEL": "benin",
+     "PAYE_ID": 325
+    },
+    {
+     "VILL_ID": 898,
+     "VILL_CODE": "1702",
+     "VILL_LABEL": "BEMBÈRÈKÈ",
+     "PAYE_ID": 325
+    },
+    {
+     "VILL_ID": 899,
+     "VILL_CODE": "1703",
+     "VILL_LABEL": "NIKKI",
+     "PAYE_ID": 325
+    },
+    {
+     "VILL_ID": 900,
+     "VILL_CODE": "3002",
+     "VILL_LABEL": "Nyeri ",
+     "PAYE_ID": 338
+    },
+    {
+     "VILL_ID": 901,
+     "VILL_CODE": "3024",
+     "VILL_LABEL": "Nyeri ",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 338
+    },
+    {
+     "VILL_ID": 902,
+     "VILL_CODE": "3101",
+     "VILL_LABEL": "SUMBE ",
+     "PAYE_ID": 339
+    },
+    {
+     "VILL_ID": 903,
+     "VILL_CODE": "0109",
+     "VILL_LABEL": "Grabo ",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 905,
+     "VILL_CODE": "1704",
+     "VILL_LABEL": "Za-Kpota ",
+     "PAYE_ID": 325
+    },
+    {
+     "VILL_ID": 906,
+     "VILL_CODE": "1705",
+     "VILL_LABEL": "Toviklin",
+     "PAYE_ID": 325
+    },
+    {
+     "VILL_ID": 907,
+     "VILL_CODE": "3422",
+     "VILL_LABEL": "Malawi",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 346,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 908,
+     "VILL_CODE": "3522",
+     "VILL_LABEL": "Zimbabwe",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 347,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 910,
+     "VILL_CODE": "1009",
+     "VILL_LABEL": "KAYA",
+     "PAYE_ID": 219
+    },
+    {
+     "VILL_ID": 911,
+     "VILL_CODE": "0110",
+     "VILL_LABEL": "Adiaké ",
+     "PAYE_ID": 209
+    },
+    {
+     "VILL_ID": 912,
+     "VILL_CODE": "1706",
+     "VILL_LABEL": "Ouessè ",
+     "PAYE_ID": 325
+    },
+    {
+     "VILL_ID": 913,
+     "VILL_CODE": "3622",
+     "VILL_LABEL": "Cotre d'ivoire",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 348,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 914,
+     "VILL_CODE": "3722",
+     "VILL_LABEL": "Madagscar",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 349,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 915,
+     "VILL_CODE": "1011",
+     "VILL_LABEL": "Fada N'Gourma ",
+     "PAYE_ID": 219
+    },
+    {
+     "VILL_ID": 916,
+     "VILL_CODE": "1707",
+     "VILL_LABEL": "Lokossa",
+     "PAYE_ID": 325
+    },
+    {
+     "VILL_ID": 917,
+     "VILL_CODE": "1708",
+     "VILL_LABEL": "Cotonou",
+     "PAYE_ID": 325
+    },
+    {
+     "VILL_ID": 918,
+     "VILL_CODE": "4001",
+     "VILL_LABEL": "qatar ",
+     "PAYE_ID": 350
+    },
+    {
+     "VILL_ID": 919,
+     "VILL_CODE": "0650",
+     "VILL_LABEL": " Guédiawaye",
+     "PAYE_ID": 214
+    },
+    {
+     "VILL_ID": 920,
+     "VILL_CODE": "201",
+     "VILL_LABEL": "ETHIOPIE",
+     "PAYE_ID": 328
+    },
+    {
+     "VILL_ID": 921,
+     "VILL_CODE": "2101",
+     "VILL_LABEL": "Djibouti",
+     "PAYE_ID": 329
+    },
+    {
+     "VILL_ID": 922,
+     "VILL_CODE": "1602",
+     "VILL_LABEL": "Niger",
+     "PAYE_ID": 324
+    },
+    {
+     "VILL_ID": 923,
+     "VILL_CODE": "1503",
+     "VILL_LABEL": "LIBYE",
+     "VILL_OBSRV": "M",
+     "PAYE_ID": 239
+    },
+    {
+     "VILL_ID": 924,
+     "VILL_CODE": "1801",
+     "VILL_LABEL": "Togo",
+     "PAYE_ID": 326
+    },
+    {
+     "VILL_ID": 925,
+     "VILL_CODE": "4122",
+     "VILL_LABEL": "Rwanda",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 351,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 926,
+     "VILL_CODE": "4222",
+     "VILL_LABEL": "Tanzanie",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 352,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 927,
+     "VILL_CODE": "4322",
+     "VILL_LABEL": "Burundi",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 353,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 928,
+     "VILL_CODE": "1603",
+     "VILL_LABEL": "Niamey ",
+     "PAYE_ID": 324
+    },
+    {
+     "VILL_ID": 929,
+     "VILL_CODE": "4422",
+     "VILL_LABEL": "Ghana",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 354,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 930,
+     "VILL_CODE": "1012",
+     "VILL_LABEL": "Diébougou ",
+     "PAYE_ID": 219
+    },
+    {
+     "VILL_ID": 932,
+     "VILL_CODE": "4622",
+     "VILL_LABEL": "Madagascar",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 356,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 934,
+     "VILL_CODE": "4822",
+     "VILL_LABEL": "Comores",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 358,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 935,
+     "VILL_CODE": "5022",
+     "VILL_LABEL": "Mozambique",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 360,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 936,
+     "VILL_CODE": "1709",
+     "VILL_LABEL": "KÉTOU",
+     "PAYE_ID": 325
+    },
+    {
+     "VILL_ID": 937,
+     "VILL_CODE": "2322",
+     "VILL_LABEL": "Guinée Bissau",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 331,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 938,
+     "VILL_CODE": "5122",
+     "VILL_LABEL": "Vote d'ivoire",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 361,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 939,
+     "VILL_CODE": "5222",
+     "VILL_LABEL": "Soudan du Sud",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 362,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 940,
+     "VILL_CODE": "5322",
+     "VILL_LABEL": "Nigéria",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 363,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 941,
+     "VILL_CODE": "5422",
+     "VILL_LABEL": "01",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 364,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 942,
+     "VILL_CODE": "5522",
+     "VILL_LABEL": "Lesotho",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 365,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 943,
+     "VILL_CODE": "5622",
+     "VILL_LABEL": "Ouganda",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 366,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 944,
+     "VILL_CODE": "5722",
+     "VILL_LABEL": "Zambie",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 367,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 945,
+     "VILL_CODE": "5822",
+     "VILL_LABEL": "Érythrée",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 368,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 946,
+     "VILL_CODE": "5922",
+     "VILL_LABEL": "Gambie",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 369,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 947,
+     "VILL_CODE": "6022",
+     "VILL_LABEL": "Centrafricaine",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 370,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 948,
+     "VILL_CODE": "6122",
+     "VILL_LABEL": "ziniare",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 371,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 949,
+     "VILL_CODE": "6222",
+     "VILL_LABEL": "Cote d’ivoire",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 372,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 950,
+     "VILL_CODE": "6322",
+     "VILL_LABEL": "CHU",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 373,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 951,
+     "VILL_CODE": "6422",
+     "VILL_LABEL": "LBTP",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 374,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 952,
+     "VILL_CODE": "6522",
+     "VILL_LABEL": "Centrafrique",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 375,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 953,
+     "VILL_CODE": "6622",
+     "VILL_LABEL": "lot2",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 376,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 954,
+     "VILL_CODE": "6722",
+     "VILL_LABEL": "région du centre Est",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 377,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 955,
+     "VILL_CODE": "6822",
+     "VILL_LABEL": "Media Congo",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 378,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 956,
+     "VILL_CODE": "6922",
+     "VILL_LABEL": "Namibie",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 379,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 957,
+     "VILL_CODE": "1901",
+     "VILL_LABEL": "LIBERIA",
+     "PAYE_ID": 327
+    },
+    {
+     "VILL_ID": 958,
+     "VILL_CODE": "7022",
+     "VILL_LABEL": "région de Dosso",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 380,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 959,
+     "VILL_CODE": "7122",
+     "VILL_LABEL": "Quinée",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 381,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 960,
+     "VILL_CODE": "7222",
+     "VILL_LABEL": "3000",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 382,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 961,
+     "VILL_CODE": "7322",
+     "VILL_LABEL": "nombre de lots: 12",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 383,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 962,
+     "VILL_CODE": "7422",
+     "VILL_LABEL": "04",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 384,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 963,
+     "VILL_CODE": "7522",
+     "VILL_LABEL": "Région de Zinder",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 385,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 964,
+     "VILL_CODE": "7622",
+     "VILL_LABEL": "Lot 5",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 386,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 965,
+     "VILL_CODE": "7722",
+     "VILL_LABEL": "Gauteng",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 387,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 966,
+     "VILL_CODE": "7822",
+     "VILL_LABEL": "Limpopo",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 388,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 967,
+     "VILL_CODE": "7922",
+     "VILL_LABEL": "Cote d'voire",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 389,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 968,
+     "VILL_CODE": "8022",
+     "VILL_LABEL": "5 ème phase",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 390,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 969,
+     "VILL_CODE": "8122",
+     "VILL_LABEL": "Manzini",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 391,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 970,
+     "VILL_CODE": "8322",
+     "VILL_LABEL": "VIPP et VIMP",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 393,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 971,
+     "VILL_CODE": "8422",
+     "VILL_LABEL": "Afrique du Sud",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 394,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 972,
+     "VILL_CODE": "8522",
+     "VILL_LABEL": "Botswana",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 395,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 973,
+     "VILL_CODE": "8622",
+     "VILL_LABEL": "PDRICL II",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 396,
+     "NBRE": 0
+    },
+    {
+     "VILL_ID": 974,
+     "VILL_CODE": "8722",
+     "VILL_LABEL": "goudomp",
+     "VILL_OBSRV": "999",
+     "PAYE_ID": 397,
+     "NBRE": 0
+    }
+   ]

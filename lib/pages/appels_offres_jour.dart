@@ -115,14 +115,14 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
                   shrinkWrap: true,
                    physics: const NeverScrollableScrollPhysics(),
                   children: [
-                    Padding(padding: const EdgeInsets.all(20),
-                    child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    Padding(padding: const EdgeInsets.symmetric(vertical: 10),
+                    child: Row(mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        const Text('Résultat : '),
+                      
                        Container(
                         padding: const EdgeInsets.all(6),
                         decoration: BoxDecoration(
-                          color: Colors.amber,
+                          color: Colors.amber.shade300,
                           borderRadius: BorderRadius.circular(5)
                         ),
                         child:  Text("${state.offres.length} appels d'offres"),
@@ -267,14 +267,7 @@ class OffreCard extends StatelessWidget {
                           ),
                           const SizedBox(width: 5),
                           Text(
-                            ([
-                              'Rabat',
-                              'Casablanca',
-                              'Tanger',
-                              'Marrakech',
-                              'Ifran'
-                            ]..shuffle())
-                                .first,
+                            offre.pays!.paysLabel??"---",
                             style: Theme.of(context)
                                 .textTheme
                                 .caption!

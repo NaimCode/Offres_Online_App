@@ -4,6 +4,9 @@
 
 import 'dart:convert';
 
+import 'package:offres_onlines/models/pays.dart';
+import 'package:offres_onlines/models/ville.dart';
+
 Offre offreFromJson(String? str) => Offre.fromJson(json.decode(str!));
 
 String? offreToJson(Offre data) => json.encode(data.toJson());
@@ -62,7 +65,9 @@ class Offre {
         this.mrchDlmavant,
         this.mrchHeuravant,
     });
-
+    //extra
+    Pays? pays;
+     //
     String? mrchSttt;
     String? mrchCps;
     dynamic mrchObs1;
