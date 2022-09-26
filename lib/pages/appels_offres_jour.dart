@@ -8,6 +8,7 @@ import 'package:offres_onlines/partials/filter_page.dart';
 import 'package:offres_onlines/utils/conversion.dart';
 import 'package:offres_onlines/widgets/Loading.dart';
 import 'package:offres_onlines/widgets/error.dart';
+import 'package:offres_onlines/widgets/no_data.dart';
 import '../bloc/offre/offre_bloc.dart';
 import '../models/offre.dart';
 
@@ -110,14 +111,33 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
               }
               if (state is OffreData) {
               
-                return ListView.builder(
-                    shrinkWrap: true,
-                    physics: const NeverScrollableScrollPhysics(),
-                    itemCount: state.offres.sublist(0, 40).length,
-                    itemBuilder: ((context, index) {
-                      Offre offre = state.offres[index];
-                      return OffreCard(offre: offre);
-                    }));
+                return state.offres.isEmpty?const NoData(): ListView(
+                  shrinkWrap: true,
+                   physics: const NeverScrollableScrollPhysics(),
+                  children: [
+                    Padding(padding: const EdgeInsets.all(20),
+                    child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        const Text('Résultat : '),
+                       Container(
+                        padding: const EdgeInsets.all(6),
+                        decoration: BoxDecoration(
+                          color: Colors.amber,
+                          borderRadius: BorderRadius.circular(5)
+                        ),
+                        child:  Text("${state.offres.length} appels d'offres"),
+                       )
+                      ]),
+                    ),
+                    ListView.builder(
+                      shrinkWrap: true,
+                      physics: const NeverScrollableScrollPhysics(),
+                      itemCount: state.offres.sublist(0, 40).length,
+                      itemBuilder: ((context, index) {
+                        Offre offre = state.offres[index];
+                        return OffreCard(offre: offre);
+                      })),]
+                );
               }
            
               return Container();

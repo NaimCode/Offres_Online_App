@@ -14,6 +14,6 @@ class OffreRepository {
           json.decode(await getJson(file: 'server/AoDuJours.json'));
       data.addAll(temp.map((e) => Offre.fromJson(e)));
     });
-    return data;
+    return [];//data;
   }
 }
