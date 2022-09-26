@@ -26,34 +26,37 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
     super.initState();
     BlocProvider.of<OffreBloc>(Get.context!).add(OffreEventGetAll());
     scrollController.addListener(useToUp);
-    
   }
 
   void useToUp() {
-      if (scrollController.offset >= 400) {
-        isToUp.value = true;
-      } else {
-        isToUp.value = false;
-      }
+    if (scrollController.offset >= 300) {
+      isToUp.value = true;
+    } else {
+      isToUp.value = false;
+    }
   }
 
-@override
+  @override
   void dispose() {
     super.dispose();
     scrollController.dispose();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton:Obx(()=> Visibility(
-        visible: isToUp.value,
-        child: FloatingActionButton(backgroundColor: PRIMARY_COLOR,
-          onPressed: () {
-            scrollController.animateTo(0, duration: const Duration(milliseconds: 700), curve: Curves.easeIn);
-          },
-          child: const FaIcon(FontAwesomeIcons.chevronUp),
-        ),
-      )),
+      floatingActionButton: Obx(() => Visibility(
+            visible: isToUp.value,
+            child: FloatingActionButton(
+              backgroundColor: PRIMARY_COLOR,
+              onPressed: () {
+                scrollController.animateTo(0,
+                    duration: const Duration(milliseconds: 700),
+                    curve: Curves.easeIn);
+              },
+              child: const FaIcon(FontAwesomeIcons.chevronUp),
+            ),
+          )),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10),
         child: ListView(
@@ -80,15 +83,33 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
                 ],
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: TextFormField(
+                decoration: const InputDecoration(
+                    hintText: "Recherche",
+                    suffixIcon: SizedBox(
+                        width: double.minPositive,
+                        child: Center(
+                            child: FaIcon(FontAwesomeIcons.magnifyingGlass,
+                                size: 20))),
+                    filled: true,
+                    border: InputBorder.none),
+              ),
+            ),
             const Divider(),
+           
             BlocBuilder<OffreBloc, OffreState>(builder: (context, state) {
               if (state is OffreIsLoading) {
+           
                 return const Loading();
               }
               if (state is OffreError) {
+                
                 return const Error(text: 'Impossible de charger les donnés');
               }
               if (state is OffreData) {
+              
                 return ListView.builder(
                     shrinkWrap: true,
                     physics: const NeverScrollableScrollPhysics(),
@@ -98,6 +119,7 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
                       return OffreCard(offre: offre);
                     }));
               }
+           
               return Container();
             })
           ],
@@ -109,132 +131,143 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
 
 class OffreCard extends StatelessWidget {
   final Offre offre;
-  final  RxBool seen=false.obs;
-   OffreCard({super.key, required this.offre});
+  final RxBool seen = false.obs;
+  OffreCard({super.key, required this.offre});
 
   @override
   Widget build(BuildContext context) {
-    return Obx(()=> Opacity(opacity: seen.isTrue?0.7:1.0,
-      child: Container(
-        margin: const EdgeInsets.symmetric(vertical: 10),
-        padding: const EdgeInsets.symmetric(vertical: 10),
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10), color: Colors.grey.shade100),
-        child: ListTile(
-          onTap: () async{ 
-             await Get.toNamed("/offre", arguments: offre);
-             seen.value=true;
-            },
-          title: Visibility(
-              visible: offre.mrchSorga != null && offre.mrchSorga!.isNotEmpty,
-              child: Text(offre.mrchSorga!,
-                  style: Theme.of(context)
-                      .textTheme
-                      .bodyMedium!
-                      .copyWith(fontWeight: FontWeight.bold),
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis)),
-          subtitle: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-             
-              Visibility(
-                visible: offre.mrchObjt != null && offre.mrchObjt!.isNotEmpty,
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 10),
-                  child: Text(offre.mrchObjt ?? "--",
-                      style: Theme.of(context).textTheme.bodySmall,
-                      maxLines: 3,
-                      overflow: TextOverflow.ellipsis),
-                ),
-              ),
-              Row(
-                children: [
-                  Container(
-                    color: Colors.white,
-                    padding:
-                        const EdgeInsets.symmetric(vertical: 3, horizontal: 6),
-                    child: Text(offre.mrchCutn ?? "---",
-                        style: Theme.of(context)
-                            .textTheme
-                            .bodySmall!
-                            .copyWith(color: Colors.black)),
-                  ),
-                  const SizedBox(
-                    width: 20,
-                    child: Center(
-                        child: FaIcon(FontAwesomeIcons.solidCircle, size: 6)),
-                  ),
-                  Container(
-                    color: Colors.white,
-                    padding:
-                        const EdgeInsets.symmetric(vertical: 3, horizontal: 6),
-                    child: Text(offre.mrchCntca ?? "---",
-                        style: Theme.of(context)
-                            .textTheme
-                            .bodySmall!
-                            .copyWith(color: Colors.black)),
-                  ),
-                  const Expanded(child: SizedBox()),
-                  Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      FaIcon(
-                        FontAwesomeIcons.calendar,
-                        size: 15,
-                        color: Theme.of(context).primaryColor.withOpacity(.7),
-                      ),
-                      const SizedBox(width: 5),
-                      Text(
-                        dateFormatDMY(date: offre.mrchDlmt!),
-                        style: Theme.of(context)
-                            .textTheme
-                            .caption!
-                            .copyWith(color: Theme.of(context).primaryColor),
-                      )
-                    ],
-                  )
-                ],
-              ),
-              const Divider(),
-              Row(
+    return Obx(() => Opacity(
+          opacity: seen.isTrue ? 0.7 : 1.0,
+          child: Container(
+            margin: const EdgeInsets.symmetric(vertical: 10),
+            padding: const EdgeInsets.symmetric(vertical: 10),
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Colors.grey.shade100),
+            child: ListTile(
+              onTap: () async {
+                await Get.toNamed("/offre", arguments: offre);
+                seen.value = true;
+              },
+              title: Visibility(
+                  visible:
+                      offre.mrchSorga != null && offre.mrchSorga!.isNotEmpty,
+                  child: Text(offre.mrchSorga!,
+                      style: Theme.of(context)
+                          .textTheme
+                          .bodyMedium!
+                          .copyWith(fontWeight: FontWeight.bold),
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis)),
+              subtitle: Column(
+                mainAxisSize: MainAxisSize.min,
                 children: [
                   Visibility(
-                      visible: offre.mrchDssi != null,
-                      child: Text(
-                        DateFormat.yMd().add_Hm().format(offre.mrchDssi!),
-                        style: Theme.of(context)
-                            .textTheme
-                            .caption!
-                            .copyWith(fontStyle: FontStyle.italic),
-                      )),
-                  const Expanded(child: SizedBox()),
+                    visible:
+                        offre.mrchObjt != null && offre.mrchObjt!.isNotEmpty,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 10),
+                      child: Text(offre.mrchObjt ?? "--",
+                          style: Theme.of(context).textTheme.bodySmall,
+                          maxLines: 3,
+                          overflow: TextOverflow.ellipsis),
+                    ),
+                  ),
                   Row(
-                    mainAxisSize: MainAxisSize.min,
                     children: [
-                      FaIcon(
-                        FontAwesomeIcons.locationDot,
-                        size: 15,
-                        color: Colors.green.shade500,
+                      Container(
+                        color: Colors.white,
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 3, horizontal: 6),
+                        child: Text(offre.mrchCutn ?? "---",
+                            style: Theme.of(context)
+                                .textTheme
+                                .bodySmall!
+                                .copyWith(color: Colors.black)),
                       ),
-                      const SizedBox(width: 5),
-                      Text(
-                        (['Rabat', 'Casablanca', 'Tanger', 'Marrakech', 'Ifran']
-                              ..shuffle())
-                            .first,
-                        style: Theme.of(context)
-                            .textTheme
-                            .caption!
-                            .copyWith(color: Colors.green.shade900),
+                      const SizedBox(
+                        width: 20,
+                        child: Center(
+                            child:
+                                FaIcon(FontAwesomeIcons.solidCircle, size: 6)),
+                      ),
+                      Container(
+                        color: Colors.white,
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 3, horizontal: 6),
+                        child: Text(offre.mrchCntca ?? "---",
+                            style: Theme.of(context)
+                                .textTheme
+                                .bodySmall!
+                                .copyWith(color: Colors.black)),
+                      ),
+                      const Expanded(child: SizedBox()),
+                      Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          FaIcon(
+                            FontAwesomeIcons.calendar,
+                            size: 15,
+                            color:
+                                Theme.of(context).primaryColor.withOpacity(.7),
+                          ),
+                          const SizedBox(width: 5),
+                          Text(
+                            dateFormatDMY(date: offre.mrchDlmt!),
+                            style: Theme.of(context)
+                                .textTheme
+                                .caption!
+                                .copyWith(
+                                    color: Theme.of(context).primaryColor),
+                          )
+                        ],
+                      )
+                    ],
+                  ),
+                  const Divider(),
+                  Row(
+                    children: [
+                      Visibility(
+                          visible: offre.mrchDssi != null,
+                          child: Text(
+                            DateFormat.yMd().add_Hm().format(offre.mrchDssi!),
+                            style: Theme.of(context)
+                                .textTheme
+                                .caption!
+                                .copyWith(fontStyle: FontStyle.italic),
+                          )),
+                      const Expanded(child: SizedBox()),
+                      Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          FaIcon(
+                            FontAwesomeIcons.locationDot,
+                            size: 15,
+                            color: Colors.green.shade500,
+                          ),
+                          const SizedBox(width: 5),
+                          Text(
+                            ([
+                              'Rabat',
+                              'Casablanca',
+                              'Tanger',
+                              'Marrakech',
+                              'Ifran'
+                            ]..shuffle())
+                                .first,
+                            style: Theme.of(context)
+                                .textTheme
+                                .caption!
+                                .copyWith(color: Colors.green.shade900),
+                          )
+                        ],
                       )
                     ],
                   )
                 ],
-              )
-            ],
+              ),
+            ),
           ),
-        ),
-      ),
-    ));
+        ));
   }
 }
