@@ -126,8 +126,8 @@ class OffreCard extends StatelessWidget {
              seen.value=true;
             },
           title: Visibility(
-              visible: offre.mrchObjt != null && offre.mrchObjt!.isNotEmpty,
-              child: Text(offre.mrchObjt!,
+              visible: offre.mrchSorga != null && offre.mrchSorga!.isNotEmpty,
+              child: Text(offre.mrchSorga!,
                   style: Theme.of(context)
                       .textTheme
                       .bodyMedium!
@@ -137,12 +137,12 @@ class OffreCard extends StatelessWidget {
           subtitle: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Divider(),
+             
               Visibility(
-                visible: offre.mrchObjta != null && offre.mrchObjta!.isNotEmpty,
+                visible: offre.mrchObjt != null && offre.mrchObjt!.isNotEmpty,
                 child: Padding(
                   padding: const EdgeInsets.symmetric(vertical: 10),
-                  child: Text(offre.mrchObjta ?? "--",
+                  child: Text(offre.mrchObjt ?? "--",
                       style: Theme.of(context).textTheme.bodySmall,
                       maxLines: 3,
                       overflow: TextOverflow.ellipsis),

@@ -25,6 +25,7 @@ class _LayoutState extends State<Layout> {
           leading: const OpenDrawerButton(),
           actions:  [
             IconButton(
+              tooltip: 'Profil',
              splashRadius: 22,
               onPressed: ()=>Get.toNamed("/settings"), icon: const FaIcon(FontAwesomeIcons.solidUser))
           ],

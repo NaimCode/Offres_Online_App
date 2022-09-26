@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
+import 'package:offres_onlines/widgets/inDevelopment.dart';
 
 import '../models/offre.dart';
 
@@ -46,6 +47,7 @@ class _OffrePageState extends State<OffrePage> {
               )))
         ],
       ),
+      body: const InDevelopment(),
     );
   }
 }

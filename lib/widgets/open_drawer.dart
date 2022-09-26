@@ -7,6 +7,7 @@ class OpenDrawerButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(
+      tooltip: 'Menu',
         splashRadius: 22,
         onPressed: () {
           Scaffold.of(context).openDrawer();

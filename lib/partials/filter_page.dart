@@ -21,7 +21,7 @@ class _FilterPageState extends State<FilterPage> {
           child: Center(
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(minimumSize: const Size(double.infinity, 50),
-              backgroundColor: Theme.of(context).primaryColor,
+            
                 textStyle: const TextStyle(
                   fontSize: 18
                 )
@@ -37,14 +37,15 @@ class _FilterPageState extends State<FilterPage> {
         backgroundColor: Colors.white,
         foregroundColor: PRIMARY_COLOR,
         title: const Text('Filtrer'),
+        centerTitle: false,
         actions: [
           TextButton.icon(
             style: TextButton.styleFrom(
               foregroundColor: Theme.of(context).primaryColor
             ),
               onPressed: () {},
-              icon: const FaIcon(FontAwesomeIcons.eraser, size: 17),
-              label: const Text('Filtrer'))
+              icon: const FaIcon(FontAwesomeIcons.eraser, size: 20),
+              label: const Text('Effacer',style: TextStyle(fontSize: 17),))
         ],
       ),
     );
