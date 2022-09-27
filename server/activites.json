@@ -1,0 +1,357 @@
+[
+    {
+        "activId": 70,
+        "activCcls": "T001",
+        "activLabel": "Constructions et batiments"
+    },
+    {
+        "activId": 71,
+        "activCcls": "T002",
+        "activLabel": "Terrassements"
+    },
+    {
+        "activId": 72,
+        "activCcls": "T003",
+        "activLabel": "Menuiserie -  charpente"
+    },
+    {
+        "activId": 73,
+        "activCcls": "T004",
+        "activLabel": "Plomberie - Chauffage -  Climatisation "
+    },
+    {
+        "activId": 74,
+        "activCcls": "T005",
+        "activLabel": "Peinture et Vitrerie"
+    },
+    {
+        "activId": 75,
+        "activCcls": "T006",
+        "activLabel": "Etancheite et Isolation"
+    },
+    {
+        "activId": 76,
+        "activCcls": "T007",
+        "activLabel": "Revetement "
+    },
+    {
+        "activId": 77,
+        "activCcls": "T008",
+        "activLabel": "Platrerie et Faux plafonds"
+    },
+    {
+        "activId": 78,
+        "activCcls": "T009",
+        "activLabel": "Monte charge et Ascenseurs"
+    },
+    {
+        "activId": 79,
+        "activCcls": "T010",
+        "activLabel": "Genie civil , ouvrages d'art & amenagements divers"
+    },
+    {
+        "activId": 80,
+        "activCcls": "T011",
+        "activLabel": "Amenagement des espaces verts et jardins"
+    },
+    {
+        "activId": 81,
+        "activCcls": "T021",
+        "activLabel": "Assainissement et Conduite"
+    },
+    {
+        "activId": 82,
+        "activCcls": "T022",
+        "activLabel": "FONDATIONS SPECIALES, INJECTIONS, SONDAGES ET  FORAGES "
+    },
+    {
+        "activId": 83,
+        "activCcls": "T023",
+        "activLabel": "Hydromecaniques et Traitement d'eau potable "
+    },
+    {
+        "activId": 84,
+        "activCcls": "T024",
+        "activLabel": "Travaux maritimes et fluviaux"
+    },
+    {
+        "activId": 85,
+        "activCcls": "T031",
+        "activLabel": "TRAVAUX Routiers"
+    },
+    {
+        "activId": 86,
+        "activCcls": "T032",
+        "activLabel": "Signalisation et equipements de la route"
+    },
+    {
+        "activId": 87,
+        "activCcls": "T041",
+        "activLabel": "Electricite et Eclairage public"
+    },
+    {
+        "activId": 88,
+        "activCcls": "T042",
+        "activLabel": "COURANTS FAIBLES, TRAITEMENT ACOUSTIQUE ET AUDIO- VISUEL "
+    },
+    {
+        "activId": 89,
+        "activCcls": "T043",
+        "activLabel": "Travaux de telecommunication"
+    },
+    {
+        "activId": 90,
+        "activCcls": "T044",
+        "activLabel": "ISOLATION FRIGORIFIQUE ET CONSTRUCTION DE CHAMBRES  FROIDES"
+    },
+    {
+        "activId": 91,
+        "activCcls": "T051",
+        "activLabel": "Travaux, etudes et controle topographiques / couverture aerienne "
+    },
+    {
+        "activId": 92,
+        "activCcls": "T061",
+        "activLabel": "Travaux agricoles"
+    },
+    {
+        "activId": 93,
+        "activCcls": "T062",
+        "activLabel": "Travaux ferroviaires et voies ferrees"
+    },
+    {
+        "activId": 94,
+        "activCcls": "F206",
+        "activLabel": "Equipements hydrauliques et hydromecaniques - traitement d'eau potable - automatisme"
+    },
+    {
+        "activId": 95,
+        "activCcls": "F208",
+        "activLabel": "Materiel et equipements topographiques"
+    },
+    {
+        "activId": 96,
+        "activCcls": "F210",
+        "activLabel": "Equipement, machine et materiel d'exploitation agricole et materiel de jardinage"
+    },
+    {
+        "activId": 97,
+        "activCcls": "F212",
+        "activLabel": "Equipements et materiels electriques, electroniques et de telecommunication"
+    },
+    {
+        "activId": 98,
+        "activCcls": "F213",
+        "activLabel": "Equipements de laboratoire et materiel medical"
+    },
+    {
+        "activId": 99,
+        "activCcls": "F214",
+        "activLabel": "Equipements de chauffage - climatisation, materiel audio-visuel et de Photographie"
+    },
+    {
+        "activId": 100,
+        "activCcls": "F215",
+        "activLabel": "Materiel de manutention et de stockage et engins mobiles divers"
+    },
+    {
+        "activId": 101,
+        "activCcls": "F216",
+        "activLabel": "Vehicules à moteur et materiel roulant"
+    },
+    {
+        "activId": 102,
+        "activCcls": "F217",
+        "activLabel": "Materiel et outillage didactique et pedagogique"
+    },
+    {
+        "activId": 103,
+        "activCcls": "F218",
+        "activLabel": "materiels et logiciels  informatiques"
+    },
+    {
+        "activId": 104,
+        "activCcls": "F219",
+        "activLabel": "Equipements et materiels de sport et  de campement"
+    },
+    {
+        "activId": 105,
+        "activCcls": "F220",
+        "activLabel": "Materiel et equipement technique "
+    },
+    {
+        "activId": 106,
+        "activCcls": "F221",
+        "activLabel": "Equipement et materiel de securite, de protection et de surveillance"
+    },
+    {
+        "activId": 107,
+        "activCcls": "F222",
+        "activLabel": "Materiel et outillage de precision et de mesure"
+    },
+    {
+        "activId": 108,
+        "activCcls": "F223",
+        "activLabel": "Petit materiel et outillage"
+    },
+    {
+        "activId": 109,
+        "activCcls": "F224",
+        "activLabel": "cuisine(installation et equipements) et buanderies"
+    },
+    {
+        "activId": 110,
+        "activCcls": "F225",
+        "activLabel": "MATERIEL, MOBILIER ET FOURNITURES DE BUREAU"
+    },
+    {
+        "activId": 111,
+        "activCcls": "F230",
+        "activLabel": "Pieces de rechanges et produits industriels"
+    },
+    {
+        "activId": 112,
+        "activCcls": "F231",
+        "activLabel": "produits petroliers, gaz naturel, lubrifiants et produits connexes"
+    },
+    {
+        "activId": 113,
+        "activCcls": "F232",
+        "activLabel": "Produits chimiques et para chimiques"
+    },
+    {
+        "activId": 114,
+        "activCcls": "F233",
+        "activLabel": "Produits pharmaceutiques et consommables de laboratoire"
+    },
+    {
+        "activId": 115,
+        "activCcls": "F234",
+        "activLabel": "Produits d'industrie agro-alimentaire, produits agricoles et de peches"
+    },
+    {
+        "activId": 116,
+        "activCcls": "F236",
+        "activLabel": "Papeterie, imprimerie et emballages"
+    },
+    {
+        "activId": 117,
+        "activCcls": "F237",
+        "activLabel": "Confection /Textile /Cuir /Habillement"
+    },
+    {
+        "activId": 118,
+        "activCcls": "F238",
+        "activLabel": "Minerais, Metaux, Plastiques, Bois, bitume"
+    },
+    {
+        "activId": 119,
+        "activCcls": "F239",
+        "activLabel": "produits et materiaux prefabriques et equipements sanitaires "
+    },
+    {
+        "activId": 120,
+        "activCcls": "F240",
+        "activLabel": "Ameublement et literie"
+    },
+    {
+        "activId": 121,
+        "activCcls": "F241",
+        "activLabel": "Produits et outillage d'hygiene et de nettoiement"
+    },
+    {
+        "activId": 122,
+        "activCcls": "E301",
+        "activLabel": "Etudes liées aux prestations informatiques"
+    },
+    {
+        "activId": 123,
+        "activCcls": "E302",
+        "activLabel": "Etudes generales "
+    },
+    {
+        "activId": 124,
+        "activCcls": "E303",
+        "activLabel": "Etudes BTP et VRD"
+    },
+    {
+        "activId": 125,
+        "activCcls": "E304",
+        "activLabel": "Etudes Agricoles"
+    },
+    {
+        "activId": 126,
+        "activCcls": "P704",
+        "activLabel": "Prestations diverses"
+    },
+    {
+        "activId": 127,
+        "activCcls": "P705",
+        "activLabel": "Prestation de location (vehicules, camions et engins), de transport et de remorquage des vehicules "
+    },
+    {
+        "activId": 128,
+        "activCcls": "P706",
+        "activLabel": "Prestation de maintenance/ reparation /entretien"
+    },
+    {
+        "activId": 129,
+        "activCcls": "P707",
+        "activLabel": "Prestation de nettoyage et d'hygiene(nettoyage, desinfection, deratisation..) / Nettoyage industriel"
+    },
+    {
+        "activId": 130,
+        "activCcls": "P708",
+        "activLabel": "Prestation de gardiennage et de securite"
+    },
+    {
+        "activId": 131,
+        "activCcls": "P714",
+        "activLabel": "locations et concessions"
+    },
+    {
+        "activId": 132,
+        "activCcls": "E309",
+        "activLabel": "Consultation et etude architecturale et Concours d'idees d'architecture"
+    },
+    {
+        "activId": 133,
+        "activCcls": "P710",
+        "activLabel": "Publicite, Communication, Animations, Impression et Evenementiel (prestations et location)"
+    },
+    {
+        "activId": 134,
+        "activCcls": "P711",
+        "activLabel": "Prestation de restauration,  de reception et d'hebergement"
+    },
+    {
+        "activId": 135,
+        "activCcls": "P712",
+        "activLabel": "Prestation d'assurance"
+    },
+    {
+        "activId": 136,
+        "activCcls": "P713",
+        "activLabel": "Prestation de formation"
+    },
+    {
+        "activId": 137,
+        "activCcls": "F211",
+        "activLabel": "Materiel pour energie solaire "
+    },
+    {
+        "activId": 139,
+        "activCcls": "E305",
+        "activLabel": "Prestation d'essai, de controle et de laboratoire"
+    },
+    {
+        "activId": 140,
+        "activCcls": "P703",
+        "activLabel": "Traitement des déchets"
+    },
+    {
+        "activId": 141,
+        "activCcls": "p22",
+        "activLabel": "dfdf"
+    }
+]
