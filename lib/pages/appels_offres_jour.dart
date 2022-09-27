@@ -10,10 +10,8 @@ import 'package:offres_onlines/widgets/Loading.dart';
 import 'package:offres_onlines/widgets/error.dart';
 import 'package:offres_onlines/widgets/no_data.dart';
 import '../bloc/offre/offre_bloc.dart';
-import '../models/activite.dart';
+import '../models/filter.dart';
 import '../models/offre.dart';
-import '../models/organisme.dart';
-import '../models/ville.dart';
 
 class AppelsOffresJour extends StatefulWidget {
   const AppelsOffresJour({super.key});
@@ -27,9 +25,7 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
   RxString search = "".obs;
   RxBool isToUp = false.obs;
 
-  late List<Ville> villes;
-  late List<Organisme> organismes;
-  late List<Activite> activites;
+   late Filter filter;
 
   @override
   void initState() {
@@ -37,9 +33,7 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
     BlocProvider.of<OffreBloc>(Get.context!).add(OffreEventGetAll());
     scrollController.addListener(useToUp);
     //
-    villes=[];
-    organismes=[];
-    activites=[];
+    filter=Filter.empty();
   }
 
   void useToUp() {
@@ -90,7 +84,11 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
                             side: BorderSide(
                                 color: Theme.of(context).primaryColor)),
                         onPressed: () async {
-                          await Get.to(() =>  FilterPage(villes: villes,organismes: organismes,activites: activites));
+                         Filter? result= await Get.to(() =>  FilterPage(filter: filter));
+
+                         if(result!=null){
+                          filter=result;
+                         }
                         },
                         icon: const FaIcon(FontAwesomeIcons.filter, size: 17),
                         label: const Text('Filtrer'))

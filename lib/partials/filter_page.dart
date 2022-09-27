@@ -5,16 +5,15 @@ import 'package:get/route_manager.dart';
 import 'package:offres_onlines/bloc/data/data_bloc.dart';
 import 'package:offres_onlines/config/theme.dart';
 import 'package:offres_onlines/models/activite.dart';
+import 'package:offres_onlines/models/filter.dart';
 import 'package:offres_onlines/models/organisme.dart';
 import 'package:offres_onlines/models/ville.dart';
 import 'package:offres_onlines/partials/select.dart';
 
 
 class FilterPage extends StatefulWidget {
-  const FilterPage({super.key,required this.activites,required this.organismes,required this.villes});
- final List<Ville> villes;
-final  List<Organisme> organismes;
-final  List<Activite> activites;
+  const FilterPage({super.key,required this.filter});
+  final Filter filter;
   @override
   State<FilterPage> createState() => _FilterPageState();
 }
@@ -29,9 +28,9 @@ class _FilterPageState extends State<FilterPage> {
   @override
   void initState() {
     super.initState();
-    villes = widget.villes;
-    organismes = widget.organismes;
-    activites = widget.activites;
+    villes = widget.filter.villes;
+    organismes = widget.filter.organismes;
+    activites = widget.filter.activites;
 
     data = BlocProvider.of<DataBloc>(Get.context!).state as DataGetAll;
 
@@ -59,7 +58,7 @@ void clear(){
                     minimumSize: const Size(double.infinity, 40),
                     textStyle: const TextStyle(fontSize: 18)),
                 onPressed: () {
-                  Get.back(result: {'filter': 100, 'prix': 4000});
+                  Get.back(result: Filter(organismes: organismes, activites: activites, villes: villes));
                 },
                 child: const Text('Valider')),
           ),
