@@ -9,6 +9,7 @@ import 'package:offres_onlines/utils/conversion.dart';
 import 'package:offres_onlines/widgets/Loading.dart';
 import 'package:offres_onlines/widgets/error.dart';
 import 'package:offres_onlines/widgets/no_data.dart';
+import '../bloc/filter/filter_bloc.dart';
 import '../bloc/offre/offre_bloc.dart';
 import '../models/offre.dart';
 
@@ -21,7 +22,7 @@ class AppelsOffresJour extends StatefulWidget {
 
 class _AppelsOffresJourState extends State<AppelsOffresJour> {
   ScrollController scrollController = ScrollController();
-  RxString search="".obs;
+  RxString search = "".obs;
   RxBool isToUp = false.obs;
   @override
   void initState() {
@@ -46,106 +47,116 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      floatingActionButton: Obx(() => Visibility(
-            visible: isToUp.value,
-            child: FloatingActionButton(
-              backgroundColor: PRIMARY_COLOR,
-              onPressed: () {
-                scrollController.animateTo(0,
-                    duration: const Duration(milliseconds: 700),
-                    curve: Curves.easeIn);
-              },
-              child: const FaIcon(FontAwesomeIcons.chevronUp),
-            ),
-          )),
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10),
-        child: ListView(
-          controller: scrollController,
-          children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text("Appels d'offres du jour",
-                      style: Theme.of(context).textTheme.headline6),
-                  OutlinedButton.icon(
-                      style: OutlinedButton.styleFrom(
-                          foregroundColor: Theme.of(context).primaryColor,
-                          side: BorderSide(
-                              color: Theme.of(context).primaryColor)),
-                      onPressed: () async {
-                        await Get.to(() => const FilterPage());
-                      },
-                      icon: const FaIcon(FontAwesomeIcons.filter, size: 17),
-                      label: const Text('Filtrer'))
-                ],
-              ),
-            ),
-             Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: TextField(
-                onChanged: (value){
-                  search.value=value.toLowerCase();
+    return BlocProvider<FilterBloc>(
+      create: (context) => FilterBloc(),
+      child: Scaffold(
+        floatingActionButton: Obx(() => Visibility(
+              visible: isToUp.value,
+              child: FloatingActionButton(
+                backgroundColor: PRIMARY_COLOR,
+                onPressed: () {
+                  scrollController.animateTo(0,
+                      duration: const Duration(milliseconds: 700),
+                      curve: Curves.easeIn);
                 },
-                decoration:  const InputDecoration(contentPadding: EdgeInsets.symmetric(vertical: 14,horizontal: 12),
-                    hintText: "Recherche",
-                  
-                    suffixIcon: SizedBox(
-                        width: double.minPositive,
-                        child: Center(
-                            child: FaIcon(FontAwesomeIcons.magnifyingGlass,
-                                size: 20))),
-                    filled: true,
-                    border: InputBorder.none),
+                child: const FaIcon(FontAwesomeIcons.chevronUp),
               ),
-            ),
-            const Divider(),
-           
-            BlocBuilder<OffreBloc, OffreState>(builder: (context, state) {
-              if (state is OffreIsLoading) {
-           
-                return const Loading();
-              }
-              if (state is OffreError) {
-                
-                return const Error(text: 'Impossible de charger les donnés');
-              }
-              if (state is OffreData) {
-                return Obx(()=> state.data(searchText: search.value).isEmpty?const NoData(): ListView(
-                  shrinkWrap: true,
-                   physics: const NeverScrollableScrollPhysics(),
+            )),
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 10),
+          child: ListView(
+            controller: scrollController,
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Padding(padding: const EdgeInsets.symmetric(vertical: 10),
-                    child: Row(mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                       Container(
-                        padding: const EdgeInsets.all(6),
-                        decoration: BoxDecoration(
-                          color: Colors.amber.shade300,
-                          borderRadius: BorderRadius.circular(5)
-                        ),
-                        child:  Text("${state.data(searchText:  search.value).length} appels d'offres"),
-                       )
-                      ]),
-                    ),
-                    ListView.builder(
-                      shrinkWrap: true,
-                      physics: const NeverScrollableScrollPhysics(),
-                      itemCount: state.data(searchText:  search.value).length,
-                      itemBuilder: ((context, index) {
-                        Offre offre = state.data(searchText: search.value)[index];
-                        return OffreCard(offre: offre);
-                      })),]
-                ));
-              }
-           
-              return Container();
-            })
-          ],
+                    Text("Appels d'offres du jour",
+                        style: Theme.of(context).textTheme.headline6),
+                    OutlinedButton.icon(
+                        style: OutlinedButton.styleFrom(
+                            foregroundColor: Theme.of(context).primaryColor,
+                            side: BorderSide(
+                                color: Theme.of(context).primaryColor)),
+                        onPressed: () async {
+                          await Get.to(() => const FilterPage());
+                        },
+                        icon: const FaIcon(FontAwesomeIcons.filter, size: 17),
+                        label: const Text('Filtrer'))
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: TextField(
+                  onChanged: (value) {
+                    search.value = value.toLowerCase();
+                  },
+                  decoration: const InputDecoration(
+                      contentPadding:
+                          EdgeInsets.symmetric(vertical: 14, horizontal: 12),
+                      hintText: "Recherche",
+                      suffixIcon: SizedBox(
+                          width: double.minPositive,
+                          child: Center(
+                              child: FaIcon(FontAwesomeIcons.magnifyingGlass,
+                                  size: 20))),
+                      filled: true,
+                      border: InputBorder.none),
+                ),
+              ),
+              const Divider(),
+              BlocBuilder<OffreBloc, OffreState>(builder: (context, state) {
+                if (state is OffreIsLoading) {
+                  return const Loading();
+                }
+                if (state is OffreError) {
+                  return const Error(text: 'Impossible de charger les donnés');
+                }
+                if (state is OffreData) {
+                  return Obx(() => state.data(searchText: search.value).isEmpty
+                      ? const NoData()
+                      : ListView(
+                          shrinkWrap: true,
+                          physics: const NeverScrollableScrollPhysics(),
+                          children: [
+                              Padding(
+                                padding:
+                                    const EdgeInsets.symmetric(vertical: 10),
+                                child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Container(
+                                        padding: const EdgeInsets.all(6),
+                                        decoration: BoxDecoration(
+                                            color: Colors.amber.shade300,
+                                            borderRadius:
+                                                BorderRadius.circular(5)),
+                                        child: Text(
+                                            "${state.data(searchText: search.value).length} appels d'offres"),
+                                      )
+                                    ]),
+                              ),
+                              ListView.builder(
+                                  shrinkWrap: true,
+                                  physics: const NeverScrollableScrollPhysics(),
+                                  itemCount: state
+                                      .data(searchText: search.value)
+                                      .length,
+                                  itemBuilder: ((context, index) {
+                                    Offre offre = state.data(
+                                        searchText: search.value)[index];
+                                    return OffreCard(offre: offre);
+                                  })),
+                            ]));
+                }
+
+                return Container();
+              })
+            ],
+          ),
         ),
       ),
     );
@@ -270,7 +281,7 @@ class OffreCard extends StatelessWidget {
                           ),
                           const SizedBox(width: 5),
                           Text(
-                            offre.pays!.paysLabel??"---",
+                            offre.pays!.paysLabel ?? "---",
                             style: Theme.of(context)
                                 .textTheme
                                 .caption!
