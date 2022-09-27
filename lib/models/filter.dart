@@ -1,6 +1,6 @@
-import 'package:intl/intl.dart';
 import 'package:offres_onlines/models/pays.dart';
 import 'package:offres_onlines/models/ville.dart';
+import 'package:offres_onlines/utils/conversion.dart';
 
 import 'activite.dart';
 import 'organisme.dart';
@@ -26,13 +26,10 @@ class Filter {
     required this.villes,
   });
 
-  bool today(){
-return date==null||
-        DateFormat.yM().format(date!) == DateFormat.yM().format(DateTime.now());
-  }
+
   bool noFilter() {
     return organismes.isEmpty &&
         villes.isEmpty &&
-        activites.isEmpty && today();
+        activites.isEmpty && isToday(date: date);
   }
 }

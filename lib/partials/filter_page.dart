@@ -41,6 +41,7 @@ class _FilterPageState extends State<FilterPage> {
       activites.clear();
       villes.clear();
       organismes.clear();
+      date=null;
     });
   }
 
@@ -72,6 +73,7 @@ class _FilterPageState extends State<FilterPage> {
       ),
       appBar: AppBar(
         elevation: 0,
+
         backgroundColor: Colors.white,
         foregroundColor: PRIMARY_COLOR,
         title: const Text('Filtrer'),
@@ -249,7 +251,7 @@ class _FilterPageState extends State<FilterPage> {
             subtitle: Row(
               children: [
                 Chip(
-                    onDeleted: date == null
+                    onDeleted: isToday(date: date)
                         ? null
                         : () {
                             setState(() {
@@ -260,9 +262,7 @@ class _FilterPageState extends State<FilterPage> {
                         .textTheme
                         .caption!
                         .copyWith(color: Colors.brown.shade700),
-                    label: Text(date == null
-                        ? "Aujourd'hui"
-                        : dateHumanFormat(date: date!))),
+                    label: Text(dateHumanFormat(date: date))),
               ],
             ),
             trailing: const FaIcon(FontAwesomeIcons.chevronRight),
