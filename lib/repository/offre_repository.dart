@@ -6,9 +6,16 @@ import 'package:offres_onlines/models/offre.dart';
 
 import 'package:offres_onlines/utils/functions.dart';
 
+import '../models/filter.dart';
 import '../models/pays.dart';
 
 class OffreRepository {
+
+
+  Future<List<Offre>> fakerFilterOffres({required Filter filter})async{
+    //TODO: filter
+    return [];
+  }
   Future<List<Offre>> fakerOffres() async {
     List<Offre> data = [];
     List<Pays> pays = [];

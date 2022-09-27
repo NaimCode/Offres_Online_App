@@ -16,6 +16,7 @@ class DataRepository {
     List<Pays> pays = [];
     List<Activite> activites = [];
     List<Organisme> organismes = [];
+    
     await Future.delayed(const Duration(seconds: 1), () async {
       List<dynamic> tempVilles =
           json.decode(await getJson(file: 'server/villes.json'));

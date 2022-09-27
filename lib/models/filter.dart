@@ -22,4 +22,8 @@ class Filter{
     required this.activites,
     required this.villes,
   });
+
+ bool noFilter(){
+  return organismes.isEmpty && villes.isEmpty && activites.isEmpty;
+ }
 }
