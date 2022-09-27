@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/route_manager.dart';
 import 'package:intl/intl.dart';
 
@@ -54,6 +55,12 @@ class App extends StatelessWidget {
             return GetMaterialApp(
               debugShowCheckedModeBanner: false,
               theme: THEME,
+              localizationsDelegates: const [
+                GlobalMaterialLocalizations.delegate,
+                GlobalWidgetsLocalizations.delegate,
+                GlobalCupertinoLocalizations.delegate,
+              ],
+              supportedLocales: const [Locale('fr', 'FR')],
               initialRoute: "/avis_rectification",
               routingCallback: (routing) {
                 //Manage routing
