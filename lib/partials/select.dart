@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
+import 'package:offres_onlines/widgets/no_data.dart';
 
 class Select extends StatefulWidget {
   const Select(
@@ -75,7 +76,7 @@ class _SelectState extends State<Select> {
                 hintText: 'Recherche'),
           ),
         ),
-        body: ListView.separated(
+        body:filteredList.isEmpty?const Center(child: NoData()): ListView.separated(
             separatorBuilder: (context, index) => const Divider(),
             itemCount: filteredList.length,
             itemBuilder: (context, index) {
@@ -94,7 +95,7 @@ class _SelectState extends State<Select> {
                   }
                 },
                 dense: true,
-                title: Text(widget.field(item)),
+                title: Text(widget.field(item)??""),
                 trailing: FaIcon(
                     isSelected
                         ? FontAwesomeIcons.circleDot

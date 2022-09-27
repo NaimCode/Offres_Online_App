@@ -3,7 +3,12 @@ part of 'filter_bloc.dart';
 @immutable
 abstract class FilterState {}
 
-class FilterInitial extends FilterState {}
+class FilterInitial extends FilterState {
+ final List<Organisme> organimes=[];
+//  final List<Pays> pays;
+ final List<Activite> activites=[];
+ final List<Ville> villes=[];
+}
 
 
 
@@ -17,6 +22,15 @@ class FilterError extends FilterState {
   });
 }
 
-class FilterGetAll extends FilterState {
-
+class FilterData extends FilterState {
+ final List<Organisme> organimes;
+//  final List<Pays> pays;
+ final List<Activite> activites;
+ final List<Ville> villes;
+  FilterData({
+    required this.organimes,
+    // required this.pays,
+    required this.activites,
+    required this.villes,
+  });
 }

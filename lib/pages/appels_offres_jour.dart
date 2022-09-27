@@ -9,9 +9,11 @@ import 'package:offres_onlines/utils/conversion.dart';
 import 'package:offres_onlines/widgets/Loading.dart';
 import 'package:offres_onlines/widgets/error.dart';
 import 'package:offres_onlines/widgets/no_data.dart';
-import '../bloc/filter/filter_bloc.dart';
 import '../bloc/offre/offre_bloc.dart';
+import '../models/activite.dart';
 import '../models/offre.dart';
+import '../models/organisme.dart';
+import '../models/ville.dart';
 
 class AppelsOffresJour extends StatefulWidget {
   const AppelsOffresJour({super.key});
@@ -24,11 +26,20 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
   ScrollController scrollController = ScrollController();
   RxString search = "".obs;
   RxBool isToUp = false.obs;
+
+  late List<Ville> villes;
+  late List<Organisme> organismes;
+  late List<Activite> activites;
+
   @override
   void initState() {
     super.initState();
     BlocProvider.of<OffreBloc>(Get.context!).add(OffreEventGetAll());
     scrollController.addListener(useToUp);
+    //
+    villes=[];
+    organismes=[];
+    activites=[];
   }
 
   void useToUp() {
@@ -47,9 +58,7 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider<FilterBloc>(
-      create: (context) => FilterBloc(),
-      child: Scaffold(
+    return  Scaffold(
         floatingActionButton: Obx(() => Visibility(
               visible: isToUp.value,
               child: FloatingActionButton(
@@ -81,7 +90,7 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
                             side: BorderSide(
                                 color: Theme.of(context).primaryColor)),
                         onPressed: () async {
-                          await Get.to(() => const FilterPage());
+                          await Get.to(() =>  FilterPage(villes: villes,organismes: organismes,activites: activites));
                         },
                         icon: const FaIcon(FontAwesomeIcons.filter, size: 17),
                         label: const Text('Filtrer'))
@@ -158,8 +167,8 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
             ],
           ),
         ),
-      ),
-    );
+      )
+    ;
   }
 }
 
