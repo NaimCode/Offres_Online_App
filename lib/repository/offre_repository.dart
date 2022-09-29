@@ -12,6 +12,12 @@ import '../models/pays.dart';
 class OffreRepository {
 
 
+  Future<List<Offre>> fakerOffresFavoris({required List ids})async{
+    List<Offre> offres=await fakerOffres();
+
+    return offres.where((element) => ids.contains(element.mrchId)).toList();
+  }
+
   Future<List<Offre>> fakerFilterOffres({required Filter filter})async{
     //TODO: filter
     return [];

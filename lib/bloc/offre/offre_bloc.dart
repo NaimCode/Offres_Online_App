@@ -10,7 +10,7 @@ class OffreBloc extends Bloc<OffreEvent, OffreState> {
   final OffreRepository offreRepository;
   OffreBloc({required this.offreRepository}) : super(OffreInitial()) {
     on<OffreEvent>((event, emit) {});
-    on<OffreEventGetAll>(((event, emit) async {
+    on<OffreEventGetAll>((event, emit) async {
       emit(OffreIsLoading());
       try {
         List<Offre> offres = await offreRepository.fakerOffres();
@@ -18,7 +18,7 @@ class OffreBloc extends Bloc<OffreEvent, OffreState> {
       } on Exception catch (e) {
         emit(OffreError(error: e));
       }
-    }));
+    });
     on<OffreFilter>((event,emit)async{
       emit(OffreIsLoading());
         try {
@@ -28,6 +28,16 @@ class OffreBloc extends Bloc<OffreEvent, OffreState> {
         emit(OffreError(error: e));
       }
     });
- 
+    //     on<OffreFavoris>((event, emit) async {
+    //   emit(OffreIsLoading());
+    //   try {
+    //     List<Offre> offres = await offreRepository.fakerOffresFavoris(ids: event.ids);
+    //     emit(OffreDataFavoris(offres: offres));
+    //   } on Exception catch (e) {
+    //     emit(OffreError(error: e));
+    //   }
+    // });
   }
+
+  
 }

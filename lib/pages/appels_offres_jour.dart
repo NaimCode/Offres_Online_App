@@ -130,7 +130,7 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
               if (state is OffreError) {
                 return const Error(text: 'Impossible de charger les donnés');
               }
-              if (state is OffreData) {
+              if (state is OffreData ) {
                 return Obx(() => state.data(searchText: search.value).isEmpty
                     ? const NoData()
                     : ListView(
