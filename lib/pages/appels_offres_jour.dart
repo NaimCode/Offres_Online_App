@@ -62,6 +62,7 @@ class _AppelsOffresJourState extends State<AppelsOffresJour> {
 
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       floatingActionButton: Obx(() => Visibility(
             visible: isToUp.value,
