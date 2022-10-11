@@ -73,6 +73,8 @@ class App extends StatelessWidget {
             return GetMaterialApp(
               debugShowCheckedModeBanner: false,
               theme: THEME,
+              // themeMode: ThemeMode.dark,
+              //  darkTheme: ThemeData.dark(),
               localizationsDelegates: const [
                 GlobalMaterialLocalizations.delegate,
                 GlobalWidgetsLocalizations.delegate,

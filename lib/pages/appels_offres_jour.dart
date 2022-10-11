@@ -242,7 +242,8 @@ class OffreCard extends StatelessWidget {
                         color: Colors.white,
                         padding: const EdgeInsets.symmetric(
                             vertical: 3, horizontal: 6),
-                        child: Text(offre.mrchCntca ?? "---",
+                        child: 
+                        TextCurrency(number:offre.mrchCntca,
                             style: Theme.of(context)
                                 .textTheme
                                 .bodySmall!
