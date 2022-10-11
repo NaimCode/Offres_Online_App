@@ -9,6 +9,7 @@ import 'package:offres_onlines/utils/conversion.dart';
 import 'package:offres_onlines/widgets/Loading.dart';
 import 'package:offres_onlines/widgets/error.dart';
 import 'package:offres_onlines/widgets/no_data.dart';
+import 'package:offres_onlines/widgets/small/text_currency.dart';
 import '../bloc/offre/offre_bloc.dart';
 import '../models/filter.dart';
 import '../models/offre.dart';
@@ -225,7 +226,7 @@ class OffreCard extends StatelessWidget {
                         color: Colors.white,
                         padding: const EdgeInsets.symmetric(
                             vertical: 3, horizontal: 6),
-                        child: Text(offre.mrchCutn ?? "---",
+                        child:TextCurrency(number: offre.mrchCutn,
                             style: Theme.of(context)
                                 .textTheme
                                 .bodySmall!
